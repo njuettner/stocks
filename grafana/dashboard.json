@@ -1,0 +1,1047 @@
+{
+    "annotations": {
+      "list": [
+        {
+          "builtIn": 1,
+          "datasource": {
+            "type": "grafana",
+            "uid": "-- Grafana --"
+          },
+          "enable": true,
+          "hide": true,
+          "iconColor": "rgba(0, 211, 255, 1)",
+          "name": "Annotations & Alerts",
+          "target": {
+            "limit": 100,
+            "matchAny": false,
+            "tags": [],
+            "type": "dashboard"
+          },
+          "type": "dashboard"
+        }
+      ]
+    },
+    "editable": true,
+    "fiscalYearStartMonth": 0,
+    "graphTooltip": 0,
+    "id": 1,
+    "links": [],
+    "liveNow": false,
+    "panels": [
+      {
+        "datasource": {
+          "type": "marcusolsson-json-datasource",
+          "uid": "zc1kuTfVz"
+        },
+        "description": "Overview",
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "thresholds"
+            },
+            "custom": {
+              "align": "left",
+              "cellOptions": {
+                "type": "color-text"
+              },
+              "filterable": false,
+              "inspect": false,
+              "minWidth": 100,
+              "width": 150
+            },
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "green",
+                  "value": null
+                },
+                {
+                  "color": "red",
+                  "value": 80
+                }
+              ]
+            }
+          },
+          "overrides": [
+            {
+              "matcher": {
+                "id": "byName",
+                "options": "Revenue per Share TTM"
+              },
+              "properties": [
+                {
+                  "id": "custom.width",
+                  "value": 188
+                }
+              ]
+            }
+          ]
+        },
+        "gridPos": {
+          "h": 4,
+          "w": 17,
+          "x": 0,
+          "y": 0
+        },
+        "id": 9,
+        "options": {
+          "footer": {
+            "countRows": false,
+            "enablePagination": false,
+            "fields": "",
+            "reducer": [
+              "sum"
+            ],
+            "show": false
+          },
+          "showHeader": true,
+          "sortBy": []
+        },
+        "pluginVersion": "9.4.7",
+        "targets": [
+          {
+            "cacheDurationSeconds": 300,
+            "datasource": {
+              "type": "marcusolsson-json-datasource",
+              "uid": "zc1kuTfVz"
+            },
+            "fields": [
+              {
+                "jsonPath": "$.BookValue",
+                "name": "Book Value"
+              },
+              {
+                "jsonPath": "$.DividendYield",
+                "language": "jsonpath",
+                "name": "Dividend Yield"
+              },
+              {
+                "jsonPath": "$.DividendPerShare",
+                "language": "jsonpath",
+                "name": "Dividend Per Share"
+              },
+              {
+                "jsonPath": "$.EPS",
+                "language": "jsonpath",
+                "name": "EPS"
+              },
+              {
+                "jsonPath": "$.PEGRatio",
+                "language": "jsonpath",
+                "name": "PEG Ratio"
+              },
+              {
+                "jsonPath": "$.ProfitMargin",
+                "language": "jsonpath",
+                "name": "Profit Margin"
+              },
+              {
+                "jsonPath": "$.PERatio",
+                "language": "jsonpath",
+                "name": "PE Ratio"
+              },
+              {
+                "jsonPath": "$.EBITDA",
+                "language": "jsonpath",
+                "name": "EBITDA"
+              },
+              {
+                "jsonPath": "$.PriceToBookRatio",
+                "language": "jsonpath",
+                "name": "Price to Book ratio"
+              },
+              {
+                "jsonPath": "$.RevenuePerShareTTM",
+                "language": "jsonpath",
+                "name": "Revenue per Share TTM"
+              }
+            ],
+            "method": "GET",
+            "params": [],
+            "queryParams": "",
+            "refId": "A",
+            "urlPath": "/$STOCK_SYMBOL/overview"
+          }
+        ],
+        "title": "Overview",
+        "transparent": true,
+        "type": "table"
+      },
+      {
+        "datasource": {
+          "type": "marcusolsson-json-datasource",
+          "uid": "zc1kuTfVz"
+        },
+        "description": "52 Week",
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "mode": "thresholds"
+            },
+            "custom": {
+              "align": "auto",
+              "cellOptions": {
+                "type": "auto"
+              },
+              "inspect": false
+            },
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "green",
+                  "value": null
+                },
+                {
+                  "color": "red",
+                  "value": 80
+                }
+              ]
+            }
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 4,
+          "w": 7,
+          "x": 17,
+          "y": 0
+        },
+        "id": 2,
+        "options": {
+          "footer": {
+            "countRows": false,
+            "fields": "",
+            "reducer": [
+              "sum"
+            ],
+            "show": false
+          },
+          "showHeader": true
+        },
+        "pluginVersion": "9.4.7",
+        "targets": [
+          {
+            "cacheDurationSeconds": 300,
+            "datasource": {
+              "type": "marcusolsson-json-datasource",
+              "uid": "zc1kuTfVz"
+            },
+            "fields": [
+              {
+                "jsonPath": "$.52WeekHigh",
+                "name": "High"
+              },
+              {
+                "jsonPath": "$.52WeekLow",
+                "language": "jsonpath",
+                "name": "Low"
+              }
+            ],
+            "method": "GET",
+            "params": [],
+            "queryParams": "",
+            "refId": "A",
+            "urlPath": "/$STOCK_SYMBOL/overview"
+          }
+        ],
+        "title": "52 Week",
+        "type": "table"
+      },
+      {
+        "datasource": {
+          "type": "marcusolsson-json-datasource",
+          "uid": "zc1kuTfVz"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "fixedColor": "green",
+              "mode": "palette-classic"
+            },
+            "custom": {
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "",
+              "axisPlacement": "auto",
+              "fillOpacity": 80,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "lineWidth": 1,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "dark-red",
+                  "value": null
+                }
+              ]
+            },
+            "unit": "none"
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 0,
+          "y": 4
+        },
+        "id": 7,
+        "options": {
+          "barRadius": 0,
+          "barWidth": 0.97,
+          "fullHighlight": false,
+          "groupWidth": 0.7,
+          "legend": {
+            "calcs": [],
+            "displayMode": "list",
+            "placement": "right",
+            "showLegend": false
+          },
+          "orientation": "auto",
+          "showValue": "never",
+          "stacking": "none",
+          "tooltip": {
+            "mode": "single",
+            "sort": "none"
+          },
+          "xField": "Fiscal Date Ending",
+          "xTickLabelRotation": 0,
+          "xTickLabelSpacing": 0
+        },
+        "pluginVersion": "9.4.7",
+        "targets": [
+          {
+            "cacheDurationSeconds": 300,
+            "datasource": {
+              "type": "marcusolsson-json-datasource",
+              "uid": "zc1kuTfVz"
+            },
+            "fields": [
+              {
+                "jsonPath": "$.quarterlyEarnings[:12].fiscalDateEnding",
+                "language": "jsonpath",
+                "name": "Fiscal Date Ending",
+                "type": "time"
+              },
+              {
+                "jsonPath": "$.quarterlyEarnings[:12].estimatedEPS",
+                "language": "jsonpath",
+                "name": "Estimated EPS",
+                "type": "number"
+              },
+              {
+                "jsonPath": "$.quarterlyEarnings[:12].reportedEPS",
+                "language": "jsonpath",
+                "name": "Reported EPS",
+                "type": "number"
+              }
+            ],
+            "method": "GET",
+            "queryParams": "",
+            "refId": "A",
+            "urlPath": "/$STOCK_SYMBOL/earnings"
+          }
+        ],
+        "title": "Reported EPS (Quarterly)",
+        "transformations": [],
+        "transparent": true,
+        "type": "barchart"
+      },
+      {
+        "datasource": {
+          "type": "marcusolsson-json-datasource",
+          "uid": "zc1kuTfVz"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "fixedColor": "green",
+              "mode": "fixed"
+            },
+            "custom": {
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "",
+              "axisPlacement": "auto",
+              "fillOpacity": 80,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "lineWidth": 1,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "dark-red",
+                  "value": null
+                }
+              ]
+            },
+            "unit": "none"
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 12,
+          "y": 4
+        },
+        "id": 5,
+        "options": {
+          "barRadius": 0,
+          "barWidth": 0.97,
+          "fullHighlight": false,
+          "groupWidth": 0.7,
+          "legend": {
+            "calcs": [],
+            "displayMode": "list",
+            "placement": "right",
+            "showLegend": false
+          },
+          "orientation": "auto",
+          "showValue": "never",
+          "stacking": "none",
+          "tooltip": {
+            "mode": "single",
+            "sort": "none"
+          },
+          "xField": "Fiscal Date Ending",
+          "xTickLabelRotation": 0,
+          "xTickLabelSpacing": 0
+        },
+        "pluginVersion": "9.4.7",
+        "targets": [
+          {
+            "cacheDurationSeconds": 300,
+            "datasource": {
+              "type": "marcusolsson-json-datasource",
+              "uid": "zc1kuTfVz"
+            },
+            "fields": [
+              {
+                "jsonPath": "$.annualEarnings[*].fiscalDateEnding",
+                "language": "jsonpath",
+                "name": "Fiscal Date Ending",
+                "type": "time"
+              },
+              {
+                "jsonPath": "$.annualEarnings[*].reportedEPS",
+                "language": "jsonpath",
+                "name": "Reported EPS",
+                "type": "number"
+              }
+            ],
+            "method": "GET",
+            "queryParams": "",
+            "refId": "A",
+            "urlPath": "/$STOCK_SYMBOL/earnings"
+          }
+        ],
+        "title": "Reported EPS (Annual)",
+        "transformations": [],
+        "transparent": true,
+        "type": "barchart"
+      },
+      {
+        "datasource": {
+          "type": "marcusolsson-json-datasource",
+          "uid": "zc1kuTfVz"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "fixedColor": "green",
+              "mode": "palette-classic"
+            },
+            "custom": {
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "",
+              "axisPlacement": "auto",
+              "fillOpacity": 80,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "lineWidth": 1,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "dark-red",
+                  "value": null
+                }
+              ]
+            },
+            "unit": "none"
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 0,
+          "y": 12
+        },
+        "id": 11,
+        "options": {
+          "barRadius": 0,
+          "barWidth": 0.97,
+          "fullHighlight": false,
+          "groupWidth": 0.7,
+          "legend": {
+            "calcs": [],
+            "displayMode": "list",
+            "placement": "right",
+            "showLegend": false
+          },
+          "orientation": "auto",
+          "showValue": "never",
+          "stacking": "none",
+          "tooltip": {
+            "mode": "single",
+            "sort": "none"
+          },
+          "xField": "Fiscal Date Ending",
+          "xTickLabelRotation": 0,
+          "xTickLabelSpacing": 0
+        },
+        "pluginVersion": "9.4.7",
+        "targets": [
+          {
+            "cacheDurationSeconds": 300,
+            "datasource": {
+              "type": "marcusolsson-json-datasource",
+              "uid": "zc1kuTfVz"
+            },
+            "fields": [
+              {
+                "jsonPath": "$.quarterlyReports[:12].fiscalDateEnding",
+                "language": "jsonpath",
+                "name": "Fiscal Date Ending",
+                "type": "time"
+              },
+              {
+                "jsonPath": "$.quarterlyReports[:12].netIncome",
+                "language": "jsonpath",
+                "name": "Net Income",
+                "type": "number"
+              }
+            ],
+            "method": "GET",
+            "queryParams": "",
+            "refId": "A",
+            "urlPath": "/$STOCK_SYMBOL/income"
+          }
+        ],
+        "title": "Net Income (Quarterly)",
+        "transformations": [],
+        "transparent": true,
+        "type": "barchart"
+      },
+      {
+        "datasource": {
+          "type": "marcusolsson-json-datasource",
+          "uid": "zc1kuTfVz"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "fixedColor": "green",
+              "mode": "fixed"
+            },
+            "custom": {
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "",
+              "axisPlacement": "auto",
+              "fillOpacity": 80,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "lineWidth": 1,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "dark-red",
+                  "value": null
+                }
+              ]
+            },
+            "unit": "none"
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 12,
+          "y": 12
+        },
+        "id": 10,
+        "options": {
+          "barRadius": 0,
+          "barWidth": 0.97,
+          "fullHighlight": false,
+          "groupWidth": 0.7,
+          "legend": {
+            "calcs": [],
+            "displayMode": "list",
+            "placement": "right",
+            "showLegend": false
+          },
+          "orientation": "auto",
+          "showValue": "never",
+          "stacking": "none",
+          "tooltip": {
+            "mode": "single",
+            "sort": "none"
+          },
+          "xField": "Fiscal Date Ending",
+          "xTickLabelRotation": 0,
+          "xTickLabelSpacing": 0
+        },
+        "pluginVersion": "9.4.7",
+        "targets": [
+          {
+            "cacheDurationSeconds": 300,
+            "datasource": {
+              "type": "marcusolsson-json-datasource",
+              "uid": "zc1kuTfVz"
+            },
+            "fields": [
+              {
+                "jsonPath": "$.annualReports[*].fiscalDateEnding",
+                "language": "jsonpath",
+                "name": "Fiscal Date Ending",
+                "type": "time"
+              },
+              {
+                "jsonPath": "$.annualReports[*].netIncome",
+                "language": "jsonpath",
+                "name": "Net Income",
+                "type": "number"
+              }
+            ],
+            "method": "GET",
+            "queryParams": "",
+            "refId": "A",
+            "urlPath": "/$STOCK_SYMBOL/income"
+          }
+        ],
+        "title": "Net Income (Annual)",
+        "transformations": [],
+        "transparent": true,
+        "type": "barchart"
+      },
+      {
+        "datasource": {
+          "type": "marcusolsson-json-datasource",
+          "uid": "zc1kuTfVz"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "fixedColor": "green",
+              "mode": "palette-classic"
+            },
+            "custom": {
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "",
+              "axisPlacement": "auto",
+              "fillOpacity": 80,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "lineWidth": 1,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "dark-red",
+                  "value": null
+                }
+              ]
+            },
+            "unit": "none"
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 0,
+          "y": 20
+        },
+        "id": 8,
+        "options": {
+          "barRadius": 0,
+          "barWidth": 0.97,
+          "fullHighlight": false,
+          "groupWidth": 0.7,
+          "legend": {
+            "calcs": [],
+            "displayMode": "list",
+            "placement": "right",
+            "showLegend": false
+          },
+          "orientation": "auto",
+          "showValue": "never",
+          "stacking": "none",
+          "tooltip": {
+            "mode": "single",
+            "sort": "none"
+          },
+          "xField": "Fiscal Date Ending",
+          "xTickLabelRotation": 0,
+          "xTickLabelSpacing": 0
+        },
+        "pluginVersion": "9.4.7",
+        "targets": [
+          {
+            "cacheDurationSeconds": 300,
+            "datasource": {
+              "type": "marcusolsson-json-datasource",
+              "uid": "zc1kuTfVz"
+            },
+            "fields": [
+              {
+                "jsonPath": "$.quarterlyEarnings[:12].fiscalDateEnding",
+                "language": "jsonpath",
+                "name": "Fiscal Date Ending",
+                "type": "time"
+              },
+              {
+                "jsonPath": "$.quarterlyEarnings[:12].surprisePercentage",
+                "language": "jsonpath",
+                "name": "Surprise Percentage",
+                "type": "number"
+              }
+            ],
+            "method": "GET",
+            "queryParams": "",
+            "refId": "A",
+            "urlPath": "/$STOCK_SYMBOL/earnings"
+          }
+        ],
+        "title": "Surprise Percentage (Quarterly)",
+        "transformations": [],
+        "transparent": true,
+        "type": "barchart"
+      },
+      {
+        "datasource": {
+          "type": "marcusolsson-json-datasource",
+          "uid": "zc1kuTfVz"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "fixedColor": "semi-dark-red",
+              "mode": "fixed"
+            },
+            "custom": {
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "",
+              "axisPlacement": "auto",
+              "fillOpacity": 80,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "lineWidth": 1,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "dark-red",
+                  "value": null
+                }
+              ]
+            },
+            "unit": "none"
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 12,
+          "y": 20
+        },
+        "id": 4,
+        "options": {
+          "barRadius": 0,
+          "barWidth": 0.97,
+          "fullHighlight": false,
+          "groupWidth": 0.7,
+          "legend": {
+            "calcs": [],
+            "displayMode": "list",
+            "placement": "right",
+            "showLegend": false
+          },
+          "orientation": "auto",
+          "showValue": "never",
+          "stacking": "none",
+          "tooltip": {
+            "mode": "single",
+            "sort": "none"
+          },
+          "xField": "Fiscal Date Ending",
+          "xTickLabelRotation": 0,
+          "xTickLabelSpacing": 0
+        },
+        "pluginVersion": "9.4.7",
+        "targets": [
+          {
+            "cacheDurationSeconds": 300,
+            "datasource": {
+              "type": "marcusolsson-json-datasource",
+              "uid": "zc1kuTfVz"
+            },
+            "fields": [
+              {
+                "jsonPath": "$.quarterlyReports[*].fiscalDateEnding",
+                "language": "jsonpath",
+                "name": "Fiscal Date Ending",
+                "type": "time"
+              },
+              {
+                "jsonPath": "$.quarterlyReports[*].currentDebt",
+                "language": "jsonpath",
+                "name": "Current Debt",
+                "type": "number"
+              }
+            ],
+            "method": "GET",
+            "queryParams": "",
+            "refId": "A",
+            "urlPath": "/$STOCK_SYMBOL/balance"
+          }
+        ],
+        "title": "Current Debt (Quarterly)",
+        "transformations": [],
+        "transparent": true,
+        "type": "barchart"
+      },
+      {
+        "datasource": {
+          "type": "marcusolsson-json-datasource",
+          "uid": "zc1kuTfVz"
+        },
+        "fieldConfig": {
+          "defaults": {
+            "color": {
+              "fixedColor": "green",
+              "mode": "fixed"
+            },
+            "custom": {
+              "axisCenteredZero": false,
+              "axisColorMode": "text",
+              "axisLabel": "",
+              "axisPlacement": "auto",
+              "fillOpacity": 80,
+              "gradientMode": "none",
+              "hideFrom": {
+                "legend": false,
+                "tooltip": false,
+                "viz": false
+              },
+              "lineWidth": 1,
+              "scaleDistribution": {
+                "type": "linear"
+              },
+              "thresholdsStyle": {
+                "mode": "off"
+              }
+            },
+            "mappings": [],
+            "thresholds": {
+              "mode": "absolute",
+              "steps": [
+                {
+                  "color": "dark-red",
+                  "value": null
+                }
+              ]
+            },
+            "unit": "none"
+          },
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 0,
+          "y": 28
+        },
+        "id": 6,
+        "options": {
+          "barRadius": 0,
+          "barWidth": 0.97,
+          "fullHighlight": false,
+          "groupWidth": 0.7,
+          "legend": {
+            "calcs": [],
+            "displayMode": "list",
+            "placement": "right",
+            "showLegend": false
+          },
+          "orientation": "auto",
+          "showValue": "never",
+          "stacking": "none",
+          "tooltip": {
+            "mode": "single",
+            "sort": "none"
+          },
+          "xField": "Fiscal Date Ending",
+          "xTickLabelRotation": 0,
+          "xTickLabelSpacing": 0
+        },
+        "pluginVersion": "9.4.7",
+        "targets": [
+          {
+            "cacheDurationSeconds": 300,
+            "datasource": {
+              "type": "marcusolsson-json-datasource",
+              "uid": "zc1kuTfVz"
+            },
+            "fields": [
+              {
+                "jsonPath": "$.quarterlyReports[*].fiscalDateEnding",
+                "language": "jsonpath",
+                "name": "Fiscal Date Ending",
+                "type": "time"
+              },
+              {
+                "jsonPath": "$.quarterlyReports[*].totalAssets",
+                "language": "jsonpath",
+                "name": "Total Assets",
+                "type": "number"
+              }
+            ],
+            "method": "GET",
+            "queryParams": "",
+            "refId": "A",
+            "urlPath": "/$STOCK_SYMBOL/balance"
+          }
+        ],
+        "title": "Total Assets",
+        "transformations": [],
+        "transparent": true,
+        "type": "barchart"
+      }
+    ],
+    "refresh": "",
+    "revision": 1,
+    "schemaVersion": 38,
+    "style": "dark",
+    "tags": [],
+    "templating": {
+      "list": [
+        {
+          "current": {
+            "selected": false,
+            "text": "AAPL",
+            "value": "AAPL"
+          },
+          "description": "Symbol of the Stock, e.g. AAPL",
+          "hide": 0,
+          "includeAll": false,
+          "label": "Stock Symbol",
+          "multi": false,
+          "name": "STOCK_SYMBOL",
+          "options": [],
+          "query": "",
+          "queryValue": "",
+          "skipUrlSync": false,
+          "type": "custom"
+        }
+      ]
+    },
+    "time": {
+      "from": "now-5m",
+      "to": "now"
+    },
+    "timepicker": {},
+    "timezone": "",
+    "title": "Stocks",
+    "uid": "ZD2DjTfVz",
+    "version": 7,
+    "weekStart": ""
+  }

@@ -8,11 +8,11 @@ import (
 	"strings"
 
 	"github.com/gorilla/mux"
-	"github.com/njuettner/stocks/pkg/balance"
-	"github.com/njuettner/stocks/pkg/cashflow"
-	"github.com/njuettner/stocks/pkg/earnings"
-	"github.com/njuettner/stocks/pkg/income"
-	"github.com/njuettner/stocks/pkg/overview"
+	"github.com/njuettner/stock-data-collection/pkg/balance"
+	"github.com/njuettner/stock-data-collection/pkg/cashflow"
+	"github.com/njuettner/stock-data-collection/pkg/earnings"
+	"github.com/njuettner/stock-data-collection/pkg/income"
+	"github.com/njuettner/stock-data-collection/pkg/overview"
 )
 
 func main() {
