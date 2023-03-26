@@ -2,7 +2,7 @@
 
 This repository contains a collection of tools for gathering stock information such as earnings, cashflow, and balance data.
 
-<img src="demo.png" width="300">
+<img src="demo.png" width="700">
 
 ## Features
 
