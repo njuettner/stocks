@@ -15,3 +15,12 @@ type Earnings struct {
 		SurprisePercentage string `json:"surprisePercentage"`
 	} `json:"quarterlyEarnings"`
 }
+
+type Calendar []struct {
+	Currency         string `json:"currency"`
+	Estimate         string `json:"estimate"`
+	FiscalDateEnding string `json:"fiscalDateEnding"`
+	Name             string `json:"name"`
+	ReportDate       string `json:"reportDate"`
+	Symbol           string `json:"symbol"`
+}
