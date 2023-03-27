@@ -30,7 +30,7 @@ func main() {
 func GetBalance(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	symbol := params["symbol"]
-	data, _ := os.ReadFile(strings.ToUpper(symbol) + "-balance.json")
+	data, _ := os.ReadFile(strings.ToUpper(symbol) + "/balance.json")
 	balance := balance.FinancialReport{}
 	json.Unmarshal(data, &balance)
 
@@ -42,7 +42,7 @@ func GetBalance(w http.ResponseWriter, r *http.Request) {
 func GetCashflow(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	symbol := params["symbol"]
-	data, _ := os.ReadFile(strings.ToUpper(symbol) + "-cashflow.json")
+	data, _ := os.ReadFile(strings.ToUpper(symbol) + "/cashflow.json")
 	cashflow := cashflow.FinancialReport{}
 	json.Unmarshal(data, &cashflow)
 
@@ -54,7 +54,7 @@ func GetCashflow(w http.ResponseWriter, r *http.Request) {
 func GetEarnings(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	symbol := params["symbol"]
-	data, _ := os.ReadFile(strings.ToUpper(symbol) + "-earnings.json")
+	data, _ := os.ReadFile(strings.ToUpper(symbol) + "/earnings.json")
 	earnings := earnings.Earnings{}
 	json.Unmarshal(data, &earnings)
 
@@ -66,7 +66,7 @@ func GetEarnings(w http.ResponseWriter, r *http.Request) {
 func GetIncome(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	symbol := params["symbol"]
-	data, _ := os.ReadFile(strings.ToUpper(symbol) + "-income.json")
+	data, _ := os.ReadFile(strings.ToUpper(symbol) + "/income.json")
 	income := income.FinancialReport{}
 	json.Unmarshal(data, &income)
 
@@ -78,7 +78,7 @@ func GetIncome(w http.ResponseWriter, r *http.Request) {
 func GetOverview(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	symbol := params["symbol"]
-	data, _ := os.ReadFile(strings.ToUpper(symbol) + "-overview.json")
+	data, _ := os.ReadFile(strings.ToUpper(symbol) + "/overview.json")
 	overview := overview.Stock{}
 	json.Unmarshal(data, &overview)
 
@@ -90,7 +90,7 @@ func GetOverview(w http.ResponseWriter, r *http.Request) {
 func GetEarningsCalendar(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	symbol := params["symbol"]
-	data, _ := os.ReadFile(strings.ToUpper(symbol) + "-earnings_calendar.json")
+	data, _ := os.ReadFile(strings.ToUpper(symbol) + "/earnings_calendar.json")
 	earningsCalendar := earnings.Calendar{}
 	json.Unmarshal(data, &earningsCalendar)
 

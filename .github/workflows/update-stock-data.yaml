@@ -1,0 +1,59 @@
+name: "go-run-schedule"
+
+on:
+  push:
+    branches:
+    - main
+    - release/*
+
+jobs:
+  go-run-schedule:
+    runs-on: "ubuntu-latest"
+    steps:
+    
+      - name: "Setup Git Project"
+        uses: "actions/checkout@v3"
+
+      - name: "Setup Go"
+        uses: "actions/setup-go@v4"
+        with:
+          cache: true
+          go-version: "1.19.2"
+
+      - name: "Collecting Stocks Data"
+        env:
+          FED_API_KEY: '${{ secrets.ALPHAVANTAGE_API_KEY}}'
+        run: |
+          go run main.go --file="example.txt"
+      - name: "Ensure Private Key"
+        env:
+          BOT_SSH_KEY: '${{ secrets.BOT_SSH_KEY }}'
+        run: |
+          echo "$BOT_SSH_KEY" > /tmp/id_ed25519
+      - name: "Setup SSH Agent"
+        env:
+          SSH_AUTH_SOCK: "/tmp/ssh_agent.sock"
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          ssh-agent -a ${SSH_AUTH_SOCK} > /dev/null
+          chmod 0600 /tmp/id_ed25519
+          ssh-add /tmp/id_ed25519
+      - name: "Setup Git Config"
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git remote set-url origin git@github.com:${GITHUB_REPOSITORY}.git
+      - name: "Commit And Push"
+        env:
+          SSH_AUTH_SOCK: "/tmp/ssh_agent.sock"
+        run: |
+            git add data/*.json
+            git commit -m "update fed data"
+            git push
+      - name: "Cleanup Build Container"
+        env:
+          SSH_AUTH_SOCK: "/tmp/ssh_agent.sock"
+        run: |
+          ssh-add -D
+          rm -Rf *
