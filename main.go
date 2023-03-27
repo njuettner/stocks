@@ -21,6 +21,7 @@ func main() {
 	flag.Parse()
 
 	var stockSymbols []string
+
 	if *stocksFile != "" {
 		file, err := ioutil.ReadFile(*stocksFile)
 		if err != nil {
@@ -43,21 +44,22 @@ func main() {
 			"balance":           "https://www.alphavantage.co/query?function=BALANCE_SHEET&symbol=" + stockSymbol + "&apikey=" + key,
 			"earnings_calendar": "https://www.alphavantage.co/query?function=EARNINGS_CALENDAR&symbol=" + stockSymbol + "&horizon=12month" + "&apikey=" + key,
 		}
-		if count > 4 {
-			// only make 5 requests per minute
-			fmt.Println("Waiting 60 seconds to make new requests ...")
-			time.Sleep(60 * time.Second)
-			count = 0
-		}
 
 		// Fetch stock data from Alpha Vantage API
 		for k, v := range url {
+
+			if count > 4 {
+				// only make 5 requests per minute
+				fmt.Println("Waiting 70 seconds to make new requests ...")
+				time.Sleep(70 * time.Second)
+				count = 0
+			}
 
 			// get the time from JSON files
 			fileInfo, err := os.Stat(fmt.Sprintf("data/%s/%s.json", stockSymbol, k))
 			if !os.IsNotExist(err) {
 				duration := time.Since(fileInfo.ModTime())
-				if duration.Hours() < 24 {
+				if duration.Hours() < 8 {
 					fmt.Printf("Skipping fetching %s for %s, no new information needed ...\n", k, stockSymbol)
 				}
 			} else {
