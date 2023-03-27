@@ -49,7 +49,7 @@ jobs:
           SSH_AUTH_SOCK: "/tmp/ssh_agent.sock"
         run: |
             git add data/*.json
-            git commit -m "update fed data"
+            git commit -m "update stocks data"
             git push
       - name: "Cleanup Build Container"
         env:
