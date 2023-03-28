@@ -2,7 +2,7 @@ name: "go-run-schedule"
 
 on:
   schedule:
-  - cron: "0 8 * * *"
+  - cron: "0 7 * * *"
 
 jobs:
   go-run-schedule:
