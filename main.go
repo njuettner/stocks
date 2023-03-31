@@ -22,17 +22,18 @@ func main() {
 
 	var stockSymbols []string
 
-	if *stocksFile != "" {
-		file, err := ioutil.ReadFile(*stocksFile)
-		if err != nil {
-			fmt.Printf("Error reading file: %v\n", err)
-			return
-		}
-		stockSymbols = strings.Split(string(file), "\n")
-	} else {
+	if *stocksFile == "" {
 		fmt.Println("No data file provided")
 		os.Exit(1)
 	}
+
+	file, err := ioutil.ReadFile(*stocksFile)
+	if err != nil {
+		fmt.Printf("Error reading file: %v\n", err)
+		os.Exit(1)
+	}
+
+	stockSymbols = strings.Split(string(file), "\n")
 
 	count := 0
 	for _, stockSymbol := range stockSymbols {
@@ -55,33 +56,23 @@ func main() {
 				count = 0
 			}
 
-			// get the time from JSON files
-			fileInfo, err := os.Stat(fmt.Sprintf("data/%s/%s.json", stockSymbol, k))
-			if !os.IsNotExist(err) {
-				duration := time.Since(fileInfo.ModTime())
-				if duration.Hours() < 8 {
-					fmt.Printf("Skipping fetching %s for %s, no new information needed ...\n", k, stockSymbol)
-				}
-			} else {
-				count++
-
-				response, err := http.Get(v)
-				if err != nil {
-					fmt.Printf("The HTTP request failed with error %s\n", err)
-				} else {
-					if _, err := os.Stat(fmt.Sprintf("data/%s", stockSymbol)); os.IsNotExist(err) {
-						os.Mkdir(fmt.Sprintf("data/%s", stockSymbol), os.ModePerm)
-					}
-
-					data, _ := ioutil.ReadAll(response.Body)
-					if k == "earnings_calendar" {
-						ioutil.WriteFile(fmt.Sprintf("data/%s/%s.csv", stockSymbol, k), data, 0644)
-						convertToJSON(fmt.Sprintf("data/%s/%s.csv", stockSymbol, k))
-					} else {
-						ioutil.WriteFile(fmt.Sprintf("data/%s/%s.json", stockSymbol, k), data, 0644)
-					}
-				}
+			response, err := http.Get(v)
+			if err != nil {
+				fmt.Printf("The HTTP request failed with error %s\n", err)
+				continue
 			}
+			if _, err := os.Stat(fmt.Sprintf("data/%s", stockSymbol)); os.IsNotExist(err) {
+				os.Mkdir(fmt.Sprintf("data/%s", stockSymbol), os.ModePerm)
+			}
+
+			data, _ := ioutil.ReadAll(response.Body)
+			if k == "earnings_calendar" {
+				ioutil.WriteFile(fmt.Sprintf("data/%s/%s.csv", stockSymbol, k), data, 0644)
+				convertToJSON(fmt.Sprintf("data/%s/%s.csv", stockSymbol, k))
+			} else {
+				ioutil.WriteFile(fmt.Sprintf("data/%s/%s.json", stockSymbol, k), data, 0644)
+			}
+			count++
 		}
 	}
 }

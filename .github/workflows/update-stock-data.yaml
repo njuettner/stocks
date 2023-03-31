@@ -8,7 +8,7 @@ jobs:
   go-run-schedule:
     runs-on: "ubuntu-latest"
     steps:
-    
+
       - name: "Setup Git Project"
         uses: "actions/checkout@v3"
 
@@ -46,9 +46,11 @@ jobs:
         env:
           SSH_AUTH_SOCK: "/tmp/ssh_agent.sock"
         run: |
+          if [[ $(git status --porcelain) ]]; then
             git add data/*.json
             git commit -m "update stocks data"
             git push
+          fi
       - name: "Cleanup Build Container"
         env:
           SSH_AUTH_SOCK: "/tmp/ssh_agent.sock"
