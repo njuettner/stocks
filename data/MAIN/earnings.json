@@ -2,6 +2,10 @@
     "symbol": "MAIN",
     "annualEarnings": [
         {
+            "fiscalDateEnding": "2023-03-31",
+            "reportedEPS": "0"
+        },
+        {
             "fiscalDateEnding": "2022-12-31",
             "reportedEPS": "3.29"
         },
