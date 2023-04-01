@@ -35,7 +35,8 @@ func main() {
 
 	stockSymbols = strings.Split(string(file), "\n")
 
-	count := 0
+	apiLimitDaily := 0
+	apiLimitPerMinute := 0
 	for _, stockSymbol := range stockSymbols {
 		var url = map[string]string{
 			"overview":          "https://www.alphavantage.co/query?function=OVERVIEW&symbol=" + stockSymbol + "&apikey=" + key,
@@ -44,16 +45,26 @@ func main() {
 			"earnings":          "https://www.alphavantage.co/query?function=EARNINGS&symbol=" + stockSymbol + "&apikey=" + key,
 			"balance":           "https://www.alphavantage.co/query?function=BALANCE_SHEET&symbol=" + stockSymbol + "&apikey=" + key,
 			"earnings_calendar": "https://www.alphavantage.co/query?function=EARNINGS_CALENDAR&symbol=" + stockSymbol + "&horizon=12month" + "&apikey=" + key,
+			"daily":             "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&outputsize=full&symbol=" + stockSymbol + "&apikey=" + key,
 		}
 
 		// Fetch stock data from Alpha Vantage API
 		for k, v := range url {
 
-			if count > 4 {
+			if (stockSymbol == "VGWL.DE" || stockSymbol == "VGWD.DE") && k != "daily" {
+				continue
+			}
+
+			if apiLimitDaily > 499 {
+				fmt.Println("Total API limit reached, aborting...")
+				os.Exit(1)
+			}
+
+			if apiLimitPerMinute > 4 {
 				// only make 5 requests per minute
 				fmt.Println("Waiting 70 seconds to make new requests ...")
 				time.Sleep(70 * time.Second)
-				count = 0
+				apiLimitPerMinute = 0
 			}
 
 			response, err := http.Get(v)
@@ -72,7 +83,8 @@ func main() {
 			} else {
 				ioutil.WriteFile(fmt.Sprintf("data/%s/%s.json", stockSymbol, k), data, 0644)
 			}
-			count++
+			apiLimitPerMinute++
+			apiLimitDaily++
 		}
 	}
 }
