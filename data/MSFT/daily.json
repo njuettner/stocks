@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "MSFT",
-        "3. Last Refreshed": "2023-03-31",
+        "3. Last Refreshed": "2023-04-03",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-04-03": {
+            "1. open": "286.52",
+            "2. high": "288.27",
+            "3. low": "283.95",
+            "4. close": "287.23",
+            "5. adjusted close": "287.23",
+            "6. volume": "24883342",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-03-31": {
             "1. open": "283.73",
             "2. high": "289.27",
