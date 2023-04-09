@@ -62,10 +62,6 @@
             "reportedEPS": "5.54"
         },
         {
-            "fiscalDateEnding": "2005-12-31",
-            "reportedEPS": "0"
-        },
-        {
             "fiscalDateEnding": "2004-12-31",
             "reportedEPS": "1.61"
         },
@@ -502,14 +498,6 @@
             "estimatedEPS": "2.68",
             "surprise": "0.11",
             "surprisePercentage": "4.1045"
-        },
-        {
-            "fiscalDateEnding": "2005-12-31",
-            "reportedDate": "2006-03-13",
-            "reportedEPS": "None",
-            "estimatedEPS": "1.88",
-            "surprise": "None",
-            "surprisePercentage": "None"
         },
         {
             "fiscalDateEnding": "2004-12-31",
