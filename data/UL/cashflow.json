@@ -92,7 +92,7 @@
             "proceedsFromSaleOfTreasuryStock": "None",
             "changeInCashAndCashEquivalents": "None",
             "changeInExchangeRate": "None",
-            "netIncome": "6073000000"
+            "netIncome": "5581000000"
         },
         {
             "fiscalDateEnding": "2019-12-31",
@@ -123,7 +123,7 @@
             "proceedsFromSaleOfTreasuryStock": "None",
             "changeInCashAndCashEquivalents": "0",
             "changeInExchangeRate": "0",
-            "netIncome": "6026000000"
+            "netIncome": "5625000000"
         },
         {
             "fiscalDateEnding": "2018-12-31",
@@ -154,7 +154,7 @@
             "proceedsFromSaleOfTreasuryStock": "None",
             "changeInCashAndCashEquivalents": "0",
             "changeInExchangeRate": "0",
-            "netIncome": "9808000000"
+            "netIncome": "9389000000"
         }
     ],
     "quarterlyReports": [
