@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "MCD",
-        "3. Last Refreshed": "2023-04-10",
+        "3. Last Refreshed": "2023-04-11",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-04-11": {
+            "1. open": "283.17",
+            "2. high": "285.535",
+            "3. low": "282.75",
+            "4. close": "284.48",
+            "5. adjusted close": "284.48",
+            "6. volume": "2732890",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-04-10": {
             "1. open": "283.18",
             "2. high": "284.1686",
