@@ -35,7 +35,7 @@
         },
         {
             "fiscalDateEnding": "2015-12-31",
-            "reportedEPS": "5.49"
+            "reportedEPS": "5.41"
         },
         {
             "fiscalDateEnding": "2014-12-31",
@@ -319,9 +319,9 @@
             "fiscalDateEnding": "2016-09-30",
             "reportedDate": "2016-10-20",
             "reportedEPS": "1.36",
-            "estimatedEPS": "1.41",
-            "surprise": "-0.05",
-            "surprisePercentage": "-3.5461"
+            "estimatedEPS": "1.4",
+            "surprise": "-0.04",
+            "surprisePercentage": "-2.8571"
         },
         {
             "fiscalDateEnding": "2016-06-30",
@@ -358,10 +358,10 @@
         {
             "fiscalDateEnding": "2015-06-30",
             "reportedDate": "2015-07-23",
-            "reportedEPS": "1.38",
+            "reportedEPS": "1.3",
             "estimatedEPS": "1.35",
-            "surprise": "0.03",
-            "surprisePercentage": "2.2222"
+            "surprise": "-0.05",
+            "surprisePercentage": "-3.7037"
         },
         {
             "fiscalDateEnding": "2015-03-31",

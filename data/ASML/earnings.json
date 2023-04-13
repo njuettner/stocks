@@ -259,9 +259,9 @@
             "fiscalDateEnding": "2018-06-30",
             "reportedDate": "2018-07-19",
             "reportedEPS": "1.63",
-            "estimatedEPS": "1.41",
-            "surprise": "0.22",
-            "surprisePercentage": "15.6028"
+            "estimatedEPS": "1.42",
+            "surprise": "0.21",
+            "surprisePercentage": "14.7887"
         },
         {
             "fiscalDateEnding": "2018-03-31",
@@ -339,9 +339,9 @@
             "fiscalDateEnding": "2015-12-31",
             "reportedDate": "2016-01-19",
             "reportedEPS": "0.74",
-            "estimatedEPS": "0.71",
-            "surprise": "0.03",
-            "surprisePercentage": "4.2254"
+            "estimatedEPS": "0.72",
+            "surprise": "0.02",
+            "surprisePercentage": "2.7778"
         },
         {
             "fiscalDateEnding": "2015-09-30",
