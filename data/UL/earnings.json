@@ -723,9 +723,9 @@
             "fiscalDateEnding": "2002-09-30",
             "reportedDate": "2002-10-30",
             "reportedEPS": "0.37",
-            "estimatedEPS": "0.34",
-            "surprise": "0.03",
-            "surprisePercentage": "8.8235"
+            "estimatedEPS": "0.29",
+            "surprise": "0.08",
+            "surprisePercentage": "27.5862"
         },
         {
             "fiscalDateEnding": "1999-09-30",

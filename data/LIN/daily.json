@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "LIN",
-        "3. Last Refreshed": "2023-04-14",
+        "3. Last Refreshed": "2023-04-17",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-04-17": {
+            "1. open": "359.82",
+            "2. high": "362.395",
+            "3. low": "359.51",
+            "4. close": "362.35",
+            "5. adjusted close": "362.35",
+            "6. volume": "1421302",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-04-14": {
             "1. open": "360.97",
             "2. high": "362.69",
