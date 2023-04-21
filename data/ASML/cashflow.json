@@ -97,18 +97,18 @@
         {
             "fiscalDateEnding": "2019-12-31",
             "reportedCurrency": "EUR",
-            "operatingCashflow": "3276400000",
+            "operatingCashflow": "3655100000",
             "paymentsForOperatingActivities": "None",
             "proceedsFromOperatingActivities": "None",
             "changeInOperatingLiabilities": "None",
             "changeInOperatingAssets": "None",
-            "depreciationDepletionAndAmortization": "448500000",
-            "capitalExpenditures": "885900000",
+            "depreciationDepletionAndAmortization": "828300000",
+            "capitalExpenditures": "1191500000",
             "changeInReceivables": "0",
             "changeInInventory": "-404700000",
             "profitLoss": "None",
             "cashflowFromInvestment": "-1157500000",
-            "cashflowFromFinancing": "-1712300000",
+            "cashflowFromFinancing": "-1785400000",
             "proceedsFromRepaymentsOfShortTermDebt": "None",
             "paymentsForRepurchaseOfCommonStock": "None",
             "paymentsForRepurchaseOfEquity": "None",
@@ -123,7 +123,7 @@
             "proceedsFromSaleOfTreasuryStock": "None",
             "changeInCashAndCashEquivalents": "0",
             "changeInExchangeRate": "0",
-            "netIncome": "2592300000"
+            "netIncome": "2581100000"
         },
         {
             "fiscalDateEnding": "2018-12-31",
