@@ -91,7 +91,7 @@
         },
         {
             "fiscalDateEnding": "2001-12-31",
-            "reportedEPS": "0.9204"
+            "reportedEPS": "1.1004"
         },
         {
             "fiscalDateEnding": "2000-12-31",
@@ -119,9 +119,9 @@
             "fiscalDateEnding": "2023-03-31",
             "reportedDate": "2023-04-20",
             "reportedEPS": "2.4",
-            "estimatedEPS": "2.68",
-            "surprise": "-0.28",
-            "surprisePercentage": "-10.4478"
+            "estimatedEPS": "2.66",
+            "surprise": "-0.26",
+            "surprisePercentage": "-9.7744"
         },
         {
             "fiscalDateEnding": "2022-12-31",
@@ -798,10 +798,10 @@
         {
             "fiscalDateEnding": "2001-12-31",
             "reportedDate": "2002-01-28",
-            "reportedEPS": "0.22",
-            "estimatedEPS": "0.24",
-            "surprise": "-0.02",
-            "surprisePercentage": "-8.3333"
+            "reportedEPS": "0.4",
+            "estimatedEPS": "0.39",
+            "surprise": "0.01",
+            "surprisePercentage": "2.5641"
         },
         {
             "fiscalDateEnding": "2001-09-30",

@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "MO",
-        "3. Last Refreshed": "2023-04-21",
+        "3. Last Refreshed": "2023-04-24",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-04-24": {
+            "1. open": "46.3",
+            "2. high": "46.67",
+            "3. low": "46.145",
+            "4. close": "46.67",
+            "5. adjusted close": "46.67",
+            "6. volume": "6553072",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-04-21": {
             "1. open": "46.17",
             "2. high": "46.25",

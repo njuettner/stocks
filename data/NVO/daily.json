@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "NVO",
-        "3. Last Refreshed": "2023-04-21",
+        "3. Last Refreshed": "2023-04-24",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-04-24": {
+            "1. open": "170.89",
+            "2. high": "171.42",
+            "3. low": "169.73",
+            "4. close": "170.48",
+            "5. adjusted close": "170.48",
+            "6. volume": "1188162",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-04-21": {
             "1. open": "168.74",
             "2. high": "172.97",
