@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "CHD",
-        "3. Last Refreshed": "2023-04-24",
+        "3. Last Refreshed": "2023-04-25",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-04-25": {
+            "1. open": "92.36",
+            "2. high": "93.295",
+            "3. low": "91.67",
+            "4. close": "92.48",
+            "5. adjusted close": "92.48",
+            "6. volume": "1159690",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-04-24": {
             "1. open": "91.19",
             "2. high": "92.44",
