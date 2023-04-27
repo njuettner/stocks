@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "CE",
-        "3. Last Refreshed": "2023-04-25",
+        "3. Last Refreshed": "2023-04-26",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-04-26": {
+            "1. open": "100.35",
+            "2. high": "101.6251",
+            "3. low": "99.58",
+            "4. close": "100.46",
+            "5. adjusted close": "100.46",
+            "6. volume": "866391",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-04-25": {
             "1. open": "104.16",
             "2. high": "104.16",
