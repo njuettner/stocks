@@ -234,14 +234,14 @@
             "longTermDebt": "3536000000",
             "currentLongTermDebt": "None",
             "longTermDebtNoncurrent": "None",
-            "shortLongTermDebtTotal": "None",
+            "shortLongTermDebtTotal": "3536000000",
             "otherCurrentLiabilities": "16948100000",
             "otherNonCurrentLiabilities": "None",
             "totalShareholderEquity": "9786300000",
             "treasuryStock": "None",
             "retainedEarnings": "None",
             "commonStock": "None",
-            "commonStockSharesOutstanding": "394589597"
+            "commonStockSharesOutstanding": "394800000"
         },
         {
             "fiscalDateEnding": "2022-12-31",

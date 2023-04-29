@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "BMY",
-        "3. Last Refreshed": "2023-04-27",
+        "3. Last Refreshed": "2023-04-28",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-04-28": {
+            "1. open": "67.14",
+            "2. high": "67.225",
+            "3. low": "66.02",
+            "4. close": "66.77",
+            "5. adjusted close": "66.77",
+            "6. volume": "10695008",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-04-27": {
             "1. open": "68.02",
             "2. high": "68.02",

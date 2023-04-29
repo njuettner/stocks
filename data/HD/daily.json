@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "HD",
-        "3. Last Refreshed": "2023-04-27",
+        "3. Last Refreshed": "2023-04-28",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-04-28": {
+            "1. open": "293.77",
+            "2. high": "300.82",
+            "3. low": "293.375",
+            "4. close": "300.54",
+            "5. adjusted close": "300.54",
+            "6. volume": "4063418",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-04-27": {
             "1. open": "288.0",
             "2. high": "294.71",
