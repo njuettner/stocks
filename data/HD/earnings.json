@@ -2,6 +2,10 @@
     "symbol": "HD",
     "annualEarnings": [
         {
+            "fiscalDateEnding": "2023-04-30",
+            "reportedEPS": "0"
+        },
+        {
             "fiscalDateEnding": "2023-01-31",
             "reportedEPS": "16.68"
         },
