@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "RIO",
-        "3. Last Refreshed": "2023-05-01",
+        "3. Last Refreshed": "2023-05-02",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-05-02": {
+            "1. open": "62.34",
+            "2. high": "62.41",
+            "3. low": "61.45",
+            "4. close": "62.12",
+            "5. adjusted close": "62.12",
+            "6. volume": "3883316",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-05-01": {
             "1. open": "64.24",
             "2. high": "64.4",

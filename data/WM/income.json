@@ -155,9 +155,9 @@
             "researchAndDevelopment": "None",
             "operatingExpenses": "501000000",
             "investmentIncomeNet": "None",
-            "netInterestIncome": "None",
+            "netInterestIncome": "-120000000",
             "interestIncome": "131000000",
-            "interestExpense": "None",
+            "interestExpense": "120000000",
             "nonInterestIncome": "4902000000",
             "otherNonOperatingIncome": "2000000",
             "depreciation": "None",
@@ -168,7 +168,7 @@
             "netIncomeFromContinuingOperations": "532000000",
             "comprehensiveIncomeNetOfTax": "545000000",
             "ebit": "825000000",
-            "ebitda": "None",
+            "ebitda": "1321000000",
             "netIncome": "533000000"
         },
         {
