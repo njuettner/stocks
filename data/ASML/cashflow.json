@@ -4,18 +4,18 @@
         {
             "fiscalDateEnding": "2022-12-31",
             "reportedCurrency": "EUR",
-            "operatingCashflow": "8486800000",
+            "operatingCashflow": "9434900000",
             "paymentsForOperatingActivities": "None",
             "proceedsFromOperatingActivities": "None",
             "changeInOperatingLiabilities": "None",
             "changeInOperatingAssets": "None",
-            "depreciationDepletionAndAmortization": "583600000",
-            "capitalExpenditures": "1319300000",
+            "depreciationDepletionAndAmortization": "875900000",
+            "capitalExpenditures": "2212400000",
             "changeInReceivables": "None",
             "changeInInventory": "-2080900000",
             "profitLoss": "None",
             "cashflowFromInvestment": "None",
-            "cashflowFromFinancing": "-7138300000",
+            "cashflowFromFinancing": "-7193300000",
             "proceedsFromRepaymentsOfShortTermDebt": "None",
             "paymentsForRepurchaseOfCommonStock": "None",
             "paymentsForRepurchaseOfEquity": "None",
@@ -30,7 +30,7 @@
             "proceedsFromSaleOfTreasuryStock": "None",
             "changeInCashAndCashEquivalents": "None",
             "changeInExchangeRate": "None",
-            "netIncome": "5624200000"
+            "netIncome": "6395800000"
         },
         {
             "fiscalDateEnding": "2021-12-31",
