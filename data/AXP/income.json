@@ -161,7 +161,7 @@
             "nonInterestIncome": "11298000000",
             "otherNonOperatingIncome": "None",
             "depreciation": "None",
-            "depreciationAndAmortization": "None",
+            "depreciationAndAmortization": "400000000",
             "incomeBeforeTax": "2167000000",
             "incomeTaxExpense": "351000000",
             "interestAndDebtExpense": "1433000000",
