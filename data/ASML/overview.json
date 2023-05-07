@@ -1,27 +1,48 @@
-<!DOCTYPE html>
-	<html>
-	  <head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta charset="utf-8">
-		<title>Application Error</title>
-		<style media="screen">
-		  html,body,iframe {
-			margin: 0;
-			padding: 0;
-		  }
-		  html,body {
-			height: 100%;
-			overflow: hidden;
-		  }
-		  iframe {
-			width: 100%;
-			height: 100%;
-			border: 0;
-		  }
-		</style>
-	  </head>
-	  <body>
-		<iframe src="//www.herokucdn.com/error-pages/application-error.html"></iframe>
-	  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7c2f8bb26a4b9658","version":"2023.4.0","b":1,"token":"64572c4044354af7bd12ef6002904e0c","si":100}' crossorigin="anonymous"></script>
-</body>
-	</html>
+{
+    "Symbol": "ASML",
+    "AssetType": "Common Stock",
+    "Name": "ASML Holding NV ADR",
+    "Description": "ASML Holding NV develops, produces, markets, sells and services advanced semiconductor equipment systems consisting of lithography, metrology and inspection related systems for memory and logic chip manufacturers. The company is headquartered in Veldhoven, the Netherlands.",
+    "CIK": "937966",
+    "Exchange": "NASDAQ",
+    "Currency": "USD",
+    "Country": "USA",
+    "Sector": "TECHNOLOGY",
+    "Industry": "SPECIAL INDUSTRY MACHINERY, NEC",
+    "Address": "DE RUN 6501, DR VELDHOVEN, NL",
+    "FiscalYearEnd": "December",
+    "LatestQuarter": "2023-03-31",
+    "MarketCapitalization": "256609780000",
+    "EBITDA": "8457300000",
+    "PERatio": "33.91",
+    "PEGRatio": "1.703",
+    "BookValue": "0.447",
+    "DividendPerShare": "4.43",
+    "DividendYield": "0.0153",
+    "EPS": "19.18",
+    "RevenuePerShareTTM": "1.108",
+    "ProfitMargin": "0.282",
+    "OperatingMarginTTM": "0.325",
+    "ReturnOnAssetsTTM": "0.151",
+    "ReturnOnEquityTTM": "0.74",
+    "RevenueTTM": "24385200000",
+    "GrossProfitTTM": "10700100000",
+    "DilutedEPSTTM": "19.18",
+    "QuarterlyEarningsGrowthYOY": "1.861",
+    "QuarterlyRevenueGrowthYOY": "0.909",
+    "AnalystTargetPrice": "737.11",
+    "TrailingPE": "33.91",
+    "ForwardPE": "30.49",
+    "PriceToSalesRatioTTM": "12.43",
+    "PriceToBookRatio": "29.61",
+    "EVToRevenue": "12.62",
+    "EVToEBITDA": "35.86",
+    "Beta": "1.252",
+    "52WeekHigh": "695.05",
+    "52WeekLow": "360.39",
+    "50DayMovingAverage": "637.6",
+    "200DayMovingAverage": "571.82",
+    "SharesOutstanding": "394590000",
+    "DividendDate": "2023-05-10",
+    "ExDividendDate": "2023-05-01"
+}

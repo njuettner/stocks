@@ -395,7 +395,7 @@
             "currentLongTermDebt": "2000000000",
             "longTermDebtNoncurrent": "38000000000",
             "shortLongTermDebtTotal": "40459000000",
-            "otherCurrentLiabilities": "-13318000000",
+            "otherCurrentLiabilities": "122000000",
             "otherNonCurrentLiabilities": "30907000000",
             "totalShareholderEquity": "22383000000",
             "treasuryStock": "None",
