@@ -119,9 +119,9 @@
             "fiscalDateEnding": "2023-03-31",
             "reportedDate": "2023-04-27",
             "reportedEPS": "1.18",
-            "estimatedEPS": "1.18",
-            "surprise": "0",
-            "surprisePercentage": "0"
+            "estimatedEPS": "1.19",
+            "surprise": "-0.01",
+            "surprisePercentage": "-0.8403"
         },
         {
             "fiscalDateEnding": "2022-12-31",
