@@ -209,7 +209,7 @@
             "totalAssets": "26090000000",
             "totalCurrentAssets": "6448000000",
             "cashAndCashEquivalentsAtCarryingValue": "1167000000",
-            "cashAndShortTermInvestments": "None",
+            "cashAndShortTermInvestments": "1167000000",
             "inventory": "2749000000",
             "currentNetReceivables": "2313000000",
             "totalNonCurrentAssets": "19642000000",
