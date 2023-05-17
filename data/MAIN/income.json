@@ -37,7 +37,7 @@
             "grossProfit": "51907000",
             "totalRevenue": "55984000",
             "costOfRevenue": "4077000",
-            "costofGoodsAndServicesSold": "None",
+            "costofGoodsAndServicesSold": "-13260000",
             "operatingIncome": "47830000",
             "sellingGeneralAndAdministrative": "4077000",
             "researchAndDevelopment": "None",
@@ -56,7 +56,7 @@
             "netIncomeFromContinuingOperations": "118043000",
             "comprehensiveIncomeNetOfTax": "118043000",
             "ebit": "112703000",
-            "ebitda": "None",
+            "ebitda": "112703000",
             "netIncome": "79592000"
         },
         {
