@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "DEO",
-        "3. Last Refreshed": "2023-05-16",
+        "3. Last Refreshed": "2023-05-17",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-05-17": {
+            "1. open": "178.53",
+            "2. high": "178.53",
+            "3. low": "176.7201",
+            "4. close": "177.17",
+            "5. adjusted close": "177.17",
+            "6. volume": "251668",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-05-16": {
             "1. open": "180.3",
             "2. high": "180.4786",
