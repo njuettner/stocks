@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "CNQ",
-        "3. Last Refreshed": "2023-05-17",
+        "3. Last Refreshed": "2023-05-18",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-05-18": {
+            "1. open": "55.58",
+            "2. high": "56.19",
+            "3. low": "54.96",
+            "4. close": "56.08",
+            "5. adjusted close": "56.08",
+            "6. volume": "1197302",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-05-17": {
             "1. open": "55.78",
             "2. high": "56.13",
