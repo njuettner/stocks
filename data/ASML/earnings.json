@@ -3,7 +3,7 @@
     "annualEarnings": [
         {
             "fiscalDateEnding": "2023-03-31",
-            "reportedEPS": "4.96"
+            "reportedEPS": "4.95"
         },
         {
             "fiscalDateEnding": "2022-12-31",
@@ -113,11 +113,11 @@
     "quarterlyEarnings": [
         {
             "fiscalDateEnding": "2023-03-31",
-            "reportedDate": "2023-04-19",
-            "reportedEPS": "4.96",
-            "estimatedEPS": "4.52",
-            "surprise": "0.44",
-            "surprisePercentage": "9.7345"
+            "reportedDate": "2023-05-17",
+            "reportedEPS": "4.95",
+            "estimatedEPS": "4.1",
+            "surprise": "0.85",
+            "surprisePercentage": "20.7317"
         },
         {
             "fiscalDateEnding": "2022-12-31",
