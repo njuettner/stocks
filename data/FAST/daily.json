@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "FAST",
-        "3. Last Refreshed": "2023-05-19",
+        "3. Last Refreshed": "2023-05-22",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-05-22": {
+            "1. open": "55.12",
+            "2. high": "55.585",
+            "3. low": "54.67",
+            "4. close": "55.39",
+            "5. adjusted close": "55.39",
+            "6. volume": "2398452",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-05-19": {
             "1. open": "55.44",
             "2. high": "55.62",
