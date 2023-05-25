@@ -71,7 +71,7 @@
         },
         {
             "fiscalDateEnding": "1997-12-31",
-            "reportedEPS": "0.53"
+            "reportedEPS": "0.52"
         },
         {
             "fiscalDateEnding": "1996-12-31",
@@ -546,10 +546,10 @@
         {
             "fiscalDateEnding": "1997-09-30",
             "reportedDate": "1997-10-30",
-            "reportedEPS": "0.21",
-            "estimatedEPS": "0.25",
-            "surprise": "-0.04",
-            "surprisePercentage": "-16"
+            "reportedEPS": "0.2",
+            "estimatedEPS": "0.21",
+            "surprise": "-0.01",
+            "surprisePercentage": "-4.7619"
         },
         {
             "fiscalDateEnding": "1997-03-31",
