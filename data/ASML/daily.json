@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "ASML",
-        "3. Last Refreshed": "2023-05-24",
+        "3. Last Refreshed": "2023-05-25",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-05-25": {
+            "1. open": "701.02",
+            "2. high": "710.99",
+            "3. low": "693.76",
+            "4. close": "708.48",
+            "5. adjusted close": "708.48",
+            "6. volume": "1929808",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-05-24": {
             "1. open": "668.06",
             "2. high": "670.84",
