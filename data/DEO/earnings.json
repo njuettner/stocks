@@ -56,6 +56,14 @@
     ],
     "quarterlyEarnings": [
         {
+            "fiscalDateEnding": "2023-03-31",
+            "reportedDate": "2023-05-31",
+            "reportedEPS": "0",
+            "estimatedEPS": "0",
+            "surprise": "0",
+            "surprisePercentage": "None"
+        },
+        {
             "fiscalDateEnding": "2022-12-31",
             "reportedDate": "2023-01-26",
             "reportedEPS": "5.13",
