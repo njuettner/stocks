@@ -779,9 +779,9 @@
             "fiscalDateEnding": "2001-12-31",
             "reportedDate": "2002-01-23",
             "reportedEPS": "-0.22",
-            "estimatedEPS": "-0.05",
-            "surprise": "-0.17",
-            "surprisePercentage": "-340"
+            "estimatedEPS": "-0.17",
+            "surprise": "-0.05",
+            "surprisePercentage": "-29.4118"
         },
         {
             "fiscalDateEnding": "1999-12-31",
