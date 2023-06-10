@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "UL",
-        "3. Last Refreshed": "2023-06-08",
+        "3. Last Refreshed": "2023-06-09",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-06-09": {
+            "1. open": "49.78",
+            "2. high": "49.9178",
+            "3. low": "49.719",
+            "4. close": "49.84",
+            "5. adjusted close": "49.84",
+            "6. volume": "1478394",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-06-08": {
             "1. open": "50.01",
             "2. high": "50.21",
