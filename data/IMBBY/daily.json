@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "IMBBY",
-        "3. Last Refreshed": "2023-06-09",
+        "3. Last Refreshed": "2023-06-12",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-06-12": {
+            "1. open": "21.81",
+            "2. high": "21.83",
+            "3. low": "21.7",
+            "4. close": "21.74",
+            "5. adjusted close": "21.74",
+            "6. volume": "171185",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-06-09": {
             "1. open": "21.74",
             "2. high": "21.81",
