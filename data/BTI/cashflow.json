@@ -65,7 +65,7 @@
         },
         {
             "fiscalDateEnding": "2020-12-31",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "operatingCashflow": "9786000000",
             "paymentsForOperatingActivities": "None",
             "proceedsFromOperatingActivities": "None",
@@ -96,7 +96,7 @@
         },
         {
             "fiscalDateEnding": "2019-12-31",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "operatingCashflow": "8996000000",
             "paymentsForOperatingActivities": "None",
             "proceedsFromOperatingActivities": "None",
@@ -127,7 +127,7 @@
         },
         {
             "fiscalDateEnding": "2018-12-31",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "operatingCashflow": "10295000000",
             "paymentsForOperatingActivities": "None",
             "proceedsFromOperatingActivities": "None",
@@ -160,7 +160,7 @@
     "quarterlyReports": [
         {
             "fiscalDateEnding": "2022-12-31",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "operatingCashflow": "-3060463000",
             "paymentsForOperatingActivities": "None",
             "proceedsFromOperatingActivities": "None",
@@ -377,7 +377,7 @@
         },
         {
             "fiscalDateEnding": "2020-12-31",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "operatingCashflow": "3151000000",
             "paymentsForOperatingActivities": "None",
             "proceedsFromOperatingActivities": "None",
@@ -439,7 +439,7 @@
         },
         {
             "fiscalDateEnding": "2020-06-30",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "operatingCashflow": "1742000000",
             "paymentsForOperatingActivities": "None",
             "proceedsFromOperatingActivities": "None",
@@ -656,7 +656,7 @@
         },
         {
             "fiscalDateEnding": "2018-09-30",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "operatingCashflow": "4197860962.57",
             "paymentsForOperatingActivities": "None",
             "proceedsFromOperatingActivities": "None",
@@ -718,7 +718,7 @@
         },
         {
             "fiscalDateEnding": "2018-03-31",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "operatingCashflow": "2709269662.92",
             "paymentsForOperatingActivities": "None",
             "proceedsFromOperatingActivities": "None",
@@ -780,7 +780,7 @@
         },
         {
             "fiscalDateEnding": "2017-09-30",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "operatingCashflow": "1820500000",
             "paymentsForOperatingActivities": "None",
             "proceedsFromOperatingActivities": "None",

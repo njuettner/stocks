@@ -83,7 +83,7 @@
         },
         {
             "fiscalDateEnding": "2020-12-31",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "totalAssets": "137690000000",
             "totalCurrentAssets": "13612000000",
             "cashAndCashEquivalentsAtCarryingValue": "3139000000",
@@ -123,7 +123,7 @@
         },
         {
             "fiscalDateEnding": "2019-12-31",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "totalAssets": "141005000000",
             "totalCurrentAssets": "13274000000",
             "cashAndCashEquivalentsAtCarryingValue": "2526000000",
@@ -163,7 +163,7 @@
         },
         {
             "fiscalDateEnding": "2018-12-31",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "totalAssets": "146342000000",
             "totalCurrentAssets": "12655000000",
             "cashAndCashEquivalentsAtCarryingValue": "2432000000",
@@ -485,7 +485,7 @@
         },
         {
             "fiscalDateEnding": "2020-12-31",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "totalAssets": "137690000000",
             "totalCurrentAssets": "13612000000",
             "cashAndCashEquivalentsAtCarryingValue": "1806000000",
@@ -565,7 +565,7 @@
         },
         {
             "fiscalDateEnding": "2020-06-30",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "totalAssets": "152677000000",
             "totalCurrentAssets": "16568000000",
             "cashAndCashEquivalentsAtCarryingValue": "4784000000",
@@ -645,7 +645,7 @@
         },
         {
             "fiscalDateEnding": "2019-12-31",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "totalAssets": "141005000000",
             "totalCurrentAssets": "13274000000",
             "cashAndCashEquivalentsAtCarryingValue": "1885000000",
@@ -725,7 +725,7 @@
         },
         {
             "fiscalDateEnding": "2019-06-30",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "totalAssets": "148112000000",
             "totalCurrentAssets": "14416000000",
             "cashAndCashEquivalentsAtCarryingValue": "3308000000",
@@ -805,7 +805,7 @@
         },
         {
             "fiscalDateEnding": "2018-12-31",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "totalAssets": "146342000000",
             "totalCurrentAssets": "12655000000",
             "cashAndCashEquivalentsAtCarryingValue": "2432000000",
@@ -845,7 +845,7 @@
         },
         {
             "fiscalDateEnding": "2018-09-30",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "totalAssets": "190872570757.79",
             "totalCurrentAssets": "16505804095.47",
             "cashAndCashEquivalentsAtCarryingValue": "3393765488.46",
@@ -885,7 +885,7 @@
         },
         {
             "fiscalDateEnding": "2018-06-30",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "totalAssets": "142501000000",
             "totalCurrentAssets": "12937000000",
             "cashAndCashEquivalentsAtCarryingValue": "2125000000",
@@ -925,7 +925,7 @@
         },
         {
             "fiscalDateEnding": "2018-03-31",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "totalAssets": "200141853932.58",
             "totalCurrentAssets": "18169943820.23",
             "cashAndCashEquivalentsAtCarryingValue": "2984550561.80",
@@ -965,7 +965,7 @@
         },
         {
             "fiscalDateEnding": "2017-12-31",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "totalAssets": "141038000000",
             "totalCurrentAssets": "13966000000",
             "cashAndCashEquivalentsAtCarryingValue": "3131000000",
@@ -1005,7 +1005,7 @@
         },
         {
             "fiscalDateEnding": "2017-09-30",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "GBP",
             "totalAssets": "141054000000",
             "totalCurrentAssets": "13966000000",
             "cashAndCashEquivalentsAtCarryingValue": "3291000000",
