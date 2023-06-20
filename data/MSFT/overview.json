@@ -12,9 +12,9 @@
     "Address": "ONE MICROSOFT WAY, REDMOND, WA, US",
     "FiscalYearEnd": "June",
     "LatestQuarter": "2023-03-31",
-    "MarketCapitalization": "2545391239000",
+    "MarketCapitalization": "2577289445000",
     "EBITDA": "100080001000",
-    "PERatio": "37.13",
+    "PERatio": "37.59",
     "PEGRatio": "2.275",
     "BookValue": "26.18",
     "DividendPerShare": "2.66",
@@ -31,7 +31,7 @@
     "QuarterlyEarningsGrowthYOY": "0.104",
     "QuarterlyRevenueGrowthYOY": "0.071",
     "AnalystTargetPrice": "341.63",
-    "TrailingPE": "37.13",
+    "TrailingPE": "37.59",
     "ForwardPE": "27.03",
     "PriceToSalesRatioTTM": "9.14",
     "PriceToBookRatio": "11.05",
@@ -43,6 +43,6 @@
     "50DayMovingAverage": "311.03",
     "200DayMovingAverage": "264.04",
     "SharesOutstanding": "7435490000",
-    "DividendDate": "2023-06-08",
+    "DividendDate": "2023-09-14",
     "ExDividendDate": "2023-08-16"
 }
