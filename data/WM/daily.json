@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "WM",
-        "3. Last Refreshed": "2023-06-16",
+        "3. Last Refreshed": "2023-06-20",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-06-20": {
+            "1. open": "164.85",
+            "2. high": "165.99",
+            "3. low": "164.37",
+            "4. close": "164.86",
+            "5. adjusted close": "164.86",
+            "6. volume": "1435768",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-06-16": {
             "1. open": "165.1",
             "2. high": "166.28",
