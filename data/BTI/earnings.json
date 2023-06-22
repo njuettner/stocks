@@ -75,7 +75,7 @@
         },
         {
             "fiscalDateEnding": "1996-12-31",
-            "reportedEPS": "0.32"
+            "reportedEPS": "0.38"
         }
     ],
     "quarterlyEarnings": [
@@ -570,8 +570,8 @@
         {
             "fiscalDateEnding": "1996-09-30",
             "reportedDate": "1996-11-12",
-            "reportedEPS": "0.16",
-            "estimatedEPS": "0.16",
+            "reportedEPS": "0.22",
+            "estimatedEPS": "0.22",
             "surprise": "0",
             "surprisePercentage": "0"
         }
