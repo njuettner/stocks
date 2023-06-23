@@ -2,28 +2,38 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "VGWL.DE",
-        "3. Last Refreshed": "2023-06-21",
+        "3. Last Refreshed": "2023-06-22",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-06-22": {
+            "1. open": "100.58",
+            "2. high": "100.94",
+            "3. low": "100.24",
+            "4. close": "100.94",
+            "5. adjusted close": "100.94",
+            "6. volume": "31360",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-06-21": {
-            "1. open": "101.62",
-            "2. high": "101.92",
-            "3. low": "101.0",
-            "4. close": "101.2",
-            "5. adjusted close": "101.2",
-            "6. volume": "16167",
+            "1. open": "100.94",
+            "2. high": "100.94",
+            "3. low": "100.94",
+            "4. close": "100.94",
+            "5. adjusted close": "100.94",
+            "6. volume": "31360",
             "7. dividend amount": "0.0000",
             "8. split coefficient": "1.0"
         },
         "2023-06-20": {
-            "1. open": "101.2",
-            "2. high": "101.2",
-            "3. low": "101.2",
-            "4. close": "101.2",
-            "5. adjusted close": "101.2",
-            "6. volume": "16167",
+            "1. open": "102.08",
+            "2. high": "102.28",
+            "3. low": "101.66",
+            "4. close": "101.74",
+            "5. adjusted close": "101.74",
+            "6. volume": "37409",
             "7. dividend amount": "0.0000",
             "8. split coefficient": "1.0"
         },

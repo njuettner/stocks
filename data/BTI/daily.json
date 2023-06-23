@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "BTI",
-        "3. Last Refreshed": "2023-06-21",
+        "3. Last Refreshed": "2023-06-22",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-06-22": {
+            "1. open": "33.09",
+            "2. high": "33.15",
+            "3. low": "32.86",
+            "4. close": "33.05",
+            "5. adjusted close": "33.05",
+            "6. volume": "2402302",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-06-21": {
             "1. open": "32.71",
             "2. high": "33.1",
