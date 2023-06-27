@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "EXR",
-        "3. Last Refreshed": "2023-06-23",
+        "3. Last Refreshed": "2023-06-26",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-06-26": {
+            "1. open": "141.6",
+            "2. high": "145.92",
+            "3. low": "141.59",
+            "4. close": "145.71",
+            "5. adjusted close": "145.71",
+            "6. volume": "1147861",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-06-23": {
             "1. open": "143.24",
             "2. high": "144.69",
