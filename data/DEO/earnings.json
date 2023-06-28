@@ -51,11 +51,7 @@
         },
         {
             "fiscalDateEnding": "2011-06-30",
-            "reportedEPS": "1.1242"
-        },
-        {
-            "fiscalDateEnding": "2001-06-30",
-            "reportedEPS": "3.04"
+            "reportedEPS": "4.1642"
         }
     ],
     "quarterlyEarnings": [
@@ -441,22 +437,6 @@
             "reportedEPS": "0.3732",
             "estimatedEPS": "0",
             "surprise": "0.3732",
-            "surprisePercentage": "None"
-        },
-        {
-            "fiscalDateEnding": "2001-06-30",
-            "reportedDate": "2001-08-15",
-            "reportedEPS": "None",
-            "estimatedEPS": "0.96",
-            "surprise": "None",
-            "surprisePercentage": "None"
-        },
-        {
-            "fiscalDateEnding": "1998-09-30",
-            "reportedDate": "1998-11-05",
-            "reportedEPS": "None",
-            "estimatedEPS": "1.06",
-            "surprise": "None",
             "surprisePercentage": "None"
         },
         {
