@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "AXP",
-        "3. Last Refreshed": "2023-06-27",
+        "3. Last Refreshed": "2023-06-28",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-06-28": {
+            "1. open": "167.26",
+            "2. high": "169.87",
+            "3. low": "167.195",
+            "4. close": "169.78",
+            "5. adjusted close": "169.78",
+            "6. volume": "2289046",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-06-27": {
             "1. open": "166.35",
             "2. high": "168.38",
