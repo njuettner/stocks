@@ -91,7 +91,7 @@
         },
         {
             "fiscalDateEnding": "2001-12-31",
-            "reportedEPS": "0.9204"
+            "reportedEPS": "1.1004"
         },
         {
             "fiscalDateEnding": "2000-12-31",
@@ -798,10 +798,10 @@
         {
             "fiscalDateEnding": "2001-12-31",
             "reportedDate": "2002-01-28",
-            "reportedEPS": "0.22",
-            "estimatedEPS": "0.24",
-            "surprise": "-0.02",
-            "surprisePercentage": "-8.3333"
+            "reportedEPS": "0.4",
+            "estimatedEPS": "0.39",
+            "surprise": "0.01",
+            "surprisePercentage": "2.5641"
         },
         {
             "fiscalDateEnding": "2001-09-30",
