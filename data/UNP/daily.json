@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "UNP",
-        "3. Last Refreshed": "2023-07-12",
+        "3. Last Refreshed": "2023-07-13",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-07-13": {
+            "1. open": "209.43",
+            "2. high": "210.92",
+            "3. low": "208.57",
+            "4. close": "210.61",
+            "5. adjusted close": "210.61",
+            "6. volume": "2214270",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-07-12": {
             "1. open": "208.07",
             "2. high": "210.62",
