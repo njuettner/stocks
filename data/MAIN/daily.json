@@ -2,11 +2,21 @@
     "Meta Data": {
         "1. Information": "Daily Time Series with Splits and Dividend Events",
         "2. Symbol": "MAIN",
-        "3. Last Refreshed": "2023-07-17",
+        "3. Last Refreshed": "2023-07-18",
         "4. Output Size": "Full size",
         "5. Time Zone": "US/Eastern"
     },
     "Time Series (Daily)": {
+        "2023-07-18": {
+            "1. open": "41.4",
+            "2. high": "41.72",
+            "3. low": "41.202",
+            "4. close": "41.52",
+            "5. adjusted close": "41.52",
+            "6. volume": "341899",
+            "7. dividend amount": "0.0000",
+            "8. split coefficient": "1.0"
+        },
         "2023-07-17": {
             "1. open": "40.9",
             "2. high": "41.315",
