@@ -188,7 +188,7 @@
             "currentDebt": "3998000000",
             "shortTermDebt": "0",
             "totalNonCurrentLiabilities": "112074000000",
-            "capitalLeaseObligations": "5568000000",
+            "capitalLeaseObligations": "None",
             "longTermDebt": "76200000000",
             "currentLongTermDebt": "3998000000",
             "longTermDebtNoncurrent": "72242000000",
@@ -198,7 +198,7 @@
             "totalShareholderEquity": "82718000000",
             "treasuryStock": "None",
             "retainedEarnings": "13682000000",
-            "commonStock": "71223000000",
+            "commonStock": "None",
             "commonStockSharesOutstanding": "7677000000"
         }
     ],
