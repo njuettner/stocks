@@ -160,7 +160,7 @@
     "quarterlyReports": [
         {
             "fiscalDateEnding": "2023-06-30",
-            "reportedCurrency": "None",
+            "reportedCurrency": "DKK",
             "operatingCashflow": "28577000000",
             "paymentsForOperatingActivities": "None",
             "proceedsFromOperatingActivities": "None",
@@ -177,8 +177,8 @@
             "paymentsForRepurchaseOfCommonStock": "None",
             "paymentsForRepurchaseOfEquity": "None",
             "paymentsForRepurchaseOfPreferredStock": "None",
-            "dividendPayout": "None",
-            "dividendPayoutCommonStock": "None",
+            "dividendPayout": "0",
+            "dividendPayoutCommonStock": "0",
             "dividendPayoutPreferredStock": "None",
             "proceedsFromIssuanceOfCommonStock": "None",
             "proceedsFromIssuanceOfLongTermDebtAndCapitalSecuritiesNet": "None",
