@@ -577,7 +577,7 @@
             "investmentIncomeNet": "None",
             "netInterestIncome": "3000000",
             "interestIncome": "3000000",
-            "interestExpense": "-3000000",
+            "interestExpense": "3000000",
             "nonInterestIncome": "7164000000",
             "otherNonOperatingIncome": "28000000",
             "depreciation": "None",
