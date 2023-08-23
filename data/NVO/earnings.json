@@ -87,9 +87,9 @@
             "fiscalDateEnding": "2023-06-30",
             "reportedDate": "2023-08-10",
             "reportedEPS": "1.28",
-            "estimatedEPS": "1.36",
-            "surprise": "-0.08",
-            "surprisePercentage": "-5.8824"
+            "estimatedEPS": "1.28",
+            "surprise": "0",
+            "surprisePercentage": "0"
         },
         {
             "fiscalDateEnding": "2023-03-31",
