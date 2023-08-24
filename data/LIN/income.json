@@ -156,7 +156,7 @@
             "operatingExpenses": "1850000000",
             "investmentIncomeNet": "None",
             "netInterestIncome": "-52000000",
-            "interestIncome": "None",
+            "interestIncome": "-52000000",
             "interestExpense": "52000000",
             "nonInterestIncome": "8204000000",
             "otherNonOperatingIncome": "46000000",
