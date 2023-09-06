@@ -12,7 +12,7 @@
     "Address": "110 NORTH CARPENTER STREET, CHICAGO, IL, US",
     "FiscalYearEnd": "December",
     "LatestQuarter": "2023-06-30",
-    "MarketCapitalization": "205112607000",
+    "MarketCapitalization": "204738675000",
     "EBITDA": "13014500000",
     "PERatio": "25.92",
     "PEGRatio": "3.336",
@@ -37,12 +37,12 @@
     "PriceToBookRatio": "-",
     "EVToRevenue": "10.55",
     "EVToEBITDA": "23.03",
-    "Beta": "0.638",
+    "Beta": "0.643",
     "52WeekHigh": "297.75",
     "52WeekLow": "225.56",
     "50DayMovingAverage": "289.98",
     "200DayMovingAverage": "280.17",
-    "SharesOutstanding": "730094000",
+    "SharesOutstanding": "728763000",
     "DividendDate": "2023-09-18",
     "ExDividendDate": "2023-08-31"
 }
