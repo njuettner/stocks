@@ -3,7 +3,7 @@
     "annualEarnings": [
         {
             "fiscalDateEnding": "2023-09-30",
-            "reportedEPS": "1.04"
+            "reportedEPS": "1.56"
         },
         {
             "fiscalDateEnding": "2022-12-31",
@@ -118,10 +118,10 @@
         {
             "fiscalDateEnding": "2023-09-30",
             "reportedDate": "2023-10-12",
-            "reportedEPS": "None",
+            "reportedEPS": "0.52",
             "estimatedEPS": "0.5",
-            "surprise": "None",
-            "surprisePercentage": "None"
+            "surprise": "0.02",
+            "surprisePercentage": "4"
         },
         {
             "fiscalDateEnding": "2023-06-30",
