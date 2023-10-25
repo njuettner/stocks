@@ -1,3 +1,3 @@
 {
-    "Information": "Thank you for using Alpha Vantage! You have reached the 100 requests/day limit for your free API key. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits."
+    "Information": "Thank you for using Alpha Vantage! Our standard API rate limit is 25 requests per day. Please subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to instantly remove all daily rate limits."
 }
