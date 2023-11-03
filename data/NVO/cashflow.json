@@ -191,7 +191,7 @@
         },
         {
             "fiscalDateEnding": "2023-03-31",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "DKK",
             "operatingCashflow": "29814000000",
             "paymentsForOperatingActivities": "None",
             "proceedsFromOperatingActivities": "None",

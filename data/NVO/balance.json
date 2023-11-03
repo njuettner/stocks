@@ -245,7 +245,7 @@
         },
         {
             "fiscalDateEnding": "2023-03-31",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "DKK",
             "totalAssets": "250025000000",
             "totalCurrentAssets": "113943000000",
             "cashAndCashEquivalentsAtCarryingValue": "14936000000",
