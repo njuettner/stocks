@@ -160,7 +160,7 @@
     "quarterlyReports": [
         {
             "fiscalDateEnding": "2023-09-30",
-            "reportedCurrency": "None",
+            "reportedCurrency": "USD",
             "operatingCashflow": "40966000000",
             "paymentsForOperatingActivities": "None",
             "proceedsFromOperatingActivities": "None",
@@ -171,7 +171,7 @@
             "changeInReceivables": "None",
             "changeInInventory": "None",
             "profitLoss": "None",
-            "cashflowFromInvestment": "None",
+            "cashflowFromInvestment": "-29175000000",
             "cashflowFromFinancing": "-19832000000",
             "proceedsFromRepaymentsOfShortTermDebt": "None",
             "paymentsForRepurchaseOfCommonStock": "None",
