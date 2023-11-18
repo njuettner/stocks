@@ -658,6 +658,14 @@
             "estimatedEPS": "None",
             "surprise": "None",
             "surprisePercentage": "None"
+        },
+        {
+            "fiscalDateEnding": "1997-03-31",
+            "reportedDate": "1997-04-22",
+            "reportedEPS": "None",
+            "estimatedEPS": "0.02",
+            "surprise": "None",
+            "surprisePercentage": "None"
         }
     ]
 }
