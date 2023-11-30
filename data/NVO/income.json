@@ -145,7 +145,7 @@
     "quarterlyReports": [
         {
             "fiscalDateEnding": "2023-09-30",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "DKK",
             "grossProfit": "49018000000",
             "totalRevenue": "58731000000",
             "costOfRevenue": "9713000000",
@@ -241,7 +241,7 @@
             "investmentIncomeNet": "None",
             "netInterestIncome": "4656000000",
             "interestIncome": "3200000000",
-            "interestExpense": "8037000000",
+            "interestExpense": "-8037000000",
             "nonInterestIncome": "None",
             "otherNonOperatingIncome": "None",
             "depreciation": "None",

@@ -205,7 +205,7 @@
     "quarterlyReports": [
         {
             "fiscalDateEnding": "2023-09-30",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "DKK",
             "totalAssets": "300101000000",
             "totalCurrentAssets": "142199000000",
             "cashAndCashEquivalentsAtCarryingValue": "30144000000",

@@ -160,7 +160,7 @@
     "quarterlyReports": [
         {
             "fiscalDateEnding": "2023-09-30",
-            "reportedCurrency": "USD",
+            "reportedCurrency": "DKK",
             "operatingCashflow": "40966000000",
             "paymentsForOperatingActivities": "None",
             "proceedsFromOperatingActivities": "None",
