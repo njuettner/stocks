@@ -230,7 +230,7 @@
         {
             "fiscalDateEnding": "2021-12-31",
             "reportedCurrency": "USD",
-            "grossProfit": "122154000",
+            "grossProfit": "119558000",
             "totalRevenue": "119558000",
             "costOfRevenue": "-2596000",
             "costofGoodsAndServicesSold": "-2596000",
@@ -286,7 +286,7 @@
         {
             "fiscalDateEnding": "2021-06-30",
             "reportedCurrency": "USD",
-            "grossProfit": "117907000",
+            "grossProfit": "115335000",
             "totalRevenue": "115335000",
             "costOfRevenue": "-2572000",
             "costofGoodsAndServicesSold": "-2572000",
@@ -314,7 +314,7 @@
         {
             "fiscalDateEnding": "2021-03-31",
             "reportedCurrency": "USD",
-            "grossProfit": "69654000",
+            "grossProfit": "67274000",
             "totalRevenue": "67274000",
             "costOfRevenue": "-2380000",
             "costofGoodsAndServicesSold": "-2380000",
