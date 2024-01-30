@@ -1,27 +1,48 @@
-<!DOCTYPE html>
-	<html>
-	  <head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta charset="utf-8">
-		<title>Application Error</title>
-		<style media="screen">
-		  html,body,iframe {
-			margin: 0;
-			padding: 0;
-		  }
-		  html,body {
-			height: 100%;
-			overflow: hidden;
-		  }
-		  iframe {
-			width: 100%;
-			height: 100%;
-			border: 0;
-		  }
-		</style>
-	  </head>
-	  <body>
-		<iframe src="//www.herokucdn.com/error-pages/application-error.html"></iframe>
-	  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"84cfa47fbec413ce","b":1,"version":"2024.1.0","token":"64572c4044354af7bd12ef6002904e0c"}' crossorigin="anonymous"></script>
-</body>
-	</html>
+{
+    "Symbol": "BMY",
+    "AssetType": "Common Stock",
+    "Name": "Bristol-Myers Squibb Company",
+    "Description": "Bristol Myers Squibb (BMS) is an American multinational pharmaceutical company, headquartered in New York City. Bristol Myers Squibb manufactures prescription pharmaceuticals and biologics in several therapeutic areas, including cancer, AIDS, cardiovascular disease, diabetes, hepatitis, rheumatoid arthritis and psychiatric disorders.",
+    "CIK": "14272",
+    "Exchange": "NYSE",
+    "Currency": "USD",
+    "Country": "USA",
+    "Sector": "LIFE SCIENCES",
+    "Industry": "PHARMACEUTICAL PREPARATIONS",
+    "Address": "345 PARK AVE, NEW YORK, NY, US",
+    "FiscalYearEnd": "December",
+    "LatestQuarter": "2023-09-30",
+    "MarketCapitalization": "101473477000",
+    "EBITDA": "18268000000",
+    "PERatio": "12.63",
+    "PEGRatio": "0.579",
+    "BookValue": "14.26",
+    "DividendPerShare": "2.28",
+    "DividendYield": "0.0483",
+    "EPS": "3.95",
+    "RevenuePerShareTTM": "21.5",
+    "ProfitMargin": "0.184",
+    "OperatingMarginTTM": "0.192",
+    "ReturnOnAssetsTTM": "0.0559",
+    "ReturnOnEquityTTM": "0.269",
+    "RevenueTTM": "44935000000",
+    "GrossProfitTTM": "36378000000",
+    "DilutedEPSTTM": "3.95",
+    "QuarterlyEarningsGrowthYOY": "0.24",
+    "QuarterlyRevenueGrowthYOY": "-0.022",
+    "AnalystTargetPrice": "58.83",
+    "TrailingPE": "12.63",
+    "ForwardPE": "6.89",
+    "PriceToSalesRatioTTM": "2.258",
+    "PriceToBookRatio": "3.487",
+    "EVToRevenue": "2.953",
+    "EVToEBITDA": "6.78",
+    "Beta": "0.342",
+    "52WeekHigh": "72.33",
+    "52WeekLow": "47.7",
+    "50DayMovingAverage": "50.58",
+    "200DayMovingAverage": "59.09",
+    "SharesOutstanding": "2034760000",
+    "DividendDate": "2024-02-01",
+    "ExDividendDate": "2024-01-04"
+}
