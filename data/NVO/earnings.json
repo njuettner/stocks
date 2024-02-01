@@ -84,6 +84,14 @@
     ],
     "quarterlyEarnings": [
         {
+            "fiscalDateEnding": "2023-12-31",
+            "reportedDate": "2024-01-31",
+            "reportedEPS": "0",
+            "estimatedEPS": "0.6696",
+            "surprise": "-0.6696",
+            "surprisePercentage": "-100"
+        },
+        {
             "fiscalDateEnding": "2023-09-30",
             "reportedDate": "2023-11-01",
             "reportedEPS": "5",
@@ -656,6 +664,14 @@
             "reportedDate": "2001-12-31",
             "reportedEPS": "0.0174",
             "estimatedEPS": "None",
+            "surprise": "None",
+            "surprisePercentage": "None"
+        },
+        {
+            "fiscalDateEnding": "1997-03-31",
+            "reportedDate": "1997-04-22",
+            "reportedEPS": "None",
+            "estimatedEPS": "0.02",
             "surprise": "None",
             "surprisePercentage": "None"
         }
