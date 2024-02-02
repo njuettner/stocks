@@ -3,7 +3,7 @@
     "annualEarnings": [
         {
             "fiscalDateEnding": "2023-12-31",
-            "reportedEPS": "31.19"
+            "reportedEPS": "31.9"
         },
         {
             "fiscalDateEnding": "2022-12-31",
@@ -86,10 +86,10 @@
         {
             "fiscalDateEnding": "2023-12-31",
             "reportedDate": "2024-01-31",
-            "reportedEPS": "0",
+            "reportedEPS": "0.71",
             "estimatedEPS": "0.6696",
-            "surprise": "-0.6696",
-            "surprisePercentage": "-100"
+            "surprise": "0.0404",
+            "surprisePercentage": "6.0335"
         },
         {
             "fiscalDateEnding": "2023-09-30",
@@ -664,14 +664,6 @@
             "reportedDate": "2001-12-31",
             "reportedEPS": "0.0174",
             "estimatedEPS": "None",
-            "surprise": "None",
-            "surprisePercentage": "None"
-        },
-        {
-            "fiscalDateEnding": "1997-03-31",
-            "reportedDate": "1997-04-22",
-            "reportedEPS": "None",
-            "estimatedEPS": "0.02",
             "surprise": "None",
             "surprisePercentage": "None"
         }
