@@ -85,7 +85,7 @@
     "quarterlyEarnings": [
         {
             "fiscalDateEnding": "2023-12-31",
-            "reportedDate": "2024-01-30",
+            "reportedDate": "2024-01-31",
             "reportedEPS": "4.91",
             "estimatedEPS": "4.48",
             "surprise": "0.43",
@@ -93,7 +93,7 @@
         },
         {
             "fiscalDateEnding": "2023-09-30",
-            "reportedDate": "2023-11-01",
+            "reportedDate": "2023-11-02",
             "reportedEPS": "5",
             "estimatedEPS": "5",
             "surprise": "0",
@@ -117,7 +117,7 @@
         },
         {
             "fiscalDateEnding": "2022-12-31",
-            "reportedDate": "2023-01-31",
+            "reportedDate": "2023-02-01",
             "reportedEPS": "6.02",
             "estimatedEPS": "5.83",
             "surprise": "0.19",
@@ -125,7 +125,7 @@
         },
         {
             "fiscalDateEnding": "2022-09-30",
-            "reportedDate": "2022-11-01",
+            "reportedDate": "2022-11-02",
             "reportedEPS": "6.34",
             "estimatedEPS": "6.3",
             "surprise": "0.04",
@@ -141,7 +141,7 @@
         },
         {
             "fiscalDateEnding": "2022-03-31",
-            "reportedDate": "2022-04-28",
+            "reportedDate": "2022-04-29",
             "reportedEPS": "6.22",
             "estimatedEPS": "5.8",
             "surprise": "0.42",
@@ -149,7 +149,7 @@
         },
         {
             "fiscalDateEnding": "2021-12-31",
-            "reportedDate": "2022-02-01",
+            "reportedDate": "2022-02-02",
             "reportedEPS": "4.76",
             "estimatedEPS": "4.71",
             "surprise": "0.05",
@@ -157,7 +157,7 @@
         },
         {
             "fiscalDateEnding": "2021-09-30",
-            "reportedDate": "2021-11-02",
+            "reportedDate": "2021-11-03",
             "reportedEPS": "5.27",
             "estimatedEPS": "5",
             "surprise": "0.27",
@@ -173,7 +173,7 @@
         },
         {
             "fiscalDateEnding": "2021-03-31",
-            "reportedDate": "2021-05-04",
+            "reportedDate": "2021-05-05",
             "reportedEPS": "5.45",
             "estimatedEPS": "5.11",
             "surprise": "0.34",
@@ -181,7 +181,7 @@
         },
         {
             "fiscalDateEnding": "2020-12-31",
-            "reportedDate": "2021-02-02",
+            "reportedDate": "2021-02-03",
             "reportedEPS": "4.01",
             "estimatedEPS": "3.95",
             "surprise": "0.06",
@@ -189,7 +189,7 @@
         },
         {
             "fiscalDateEnding": "2020-09-30",
-            "reportedDate": "2020-10-29",
+            "reportedDate": "2020-10-30",
             "reportedEPS": "0.69",
             "estimatedEPS": "0.71",
             "surprise": "-0.02",
@@ -237,7 +237,7 @@
         },
         {
             "fiscalDateEnding": "2019-03-31",
-            "reportedDate": "2019-05-02",
+            "reportedDate": "2019-05-03",
             "reportedEPS": "0.66",
             "estimatedEPS": "0.62",
             "surprise": "0.04",
@@ -245,7 +245,7 @@
         },
         {
             "fiscalDateEnding": "2018-12-31",
-            "reportedDate": "2019-01-31",
+            "reportedDate": "2019-02-01",
             "reportedEPS": "0.54",
             "estimatedEPS": "0.57",
             "surprise": "-0.03",
@@ -253,7 +253,7 @@
         },
         {
             "fiscalDateEnding": "2018-09-30",
-            "reportedDate": "2018-11-01",
+            "reportedDate": "2018-11-02",
             "reportedEPS": "0.58",
             "estimatedEPS": "0.61",
             "surprise": "-0.03",
@@ -261,7 +261,7 @@
         },
         {
             "fiscalDateEnding": "2018-06-30",
-            "reportedDate": "2018-08-07",
+            "reportedDate": "2018-08-08",
             "reportedEPS": "0.68",
             "estimatedEPS": "0.65",
             "surprise": "0.03",
@@ -269,7 +269,7 @@
         },
         {
             "fiscalDateEnding": "2018-03-31",
-            "reportedDate": "2018-05-01",
+            "reportedDate": "2018-05-02",
             "reportedEPS": "0.73",
             "estimatedEPS": "0.69",
             "surprise": "0.04",
@@ -277,7 +277,7 @@
         },
         {
             "fiscalDateEnding": "2017-12-31",
-            "reportedDate": "2018-01-31",
+            "reportedDate": "2018-02-01",
             "reportedEPS": "0.53",
             "estimatedEPS": "0.58",
             "surprise": "-0.05",
@@ -285,7 +285,7 @@
         },
         {
             "fiscalDateEnding": "2017-09-30",
-            "reportedDate": "2017-10-31",
+            "reportedDate": "2017-11-01",
             "reportedEPS": "0.63",
             "estimatedEPS": "0.61",
             "surprise": "0.02",
@@ -293,7 +293,7 @@
         },
         {
             "fiscalDateEnding": "2017-06-30",
-            "reportedDate": "2017-08-08",
+            "reportedDate": "2017-08-09",
             "reportedEPS": "0.59",
             "estimatedEPS": "0.6",
             "surprise": "-0.01",
@@ -301,7 +301,7 @@
         },
         {
             "fiscalDateEnding": "2017-03-31",
-            "reportedDate": "2017-05-02",
+            "reportedDate": "2017-05-03",
             "reportedEPS": "0.58",
             "estimatedEPS": "0.53",
             "surprise": "0.05",
@@ -309,7 +309,7 @@
         },
         {
             "fiscalDateEnding": "2016-12-31",
-            "reportedDate": "2017-02-01",
+            "reportedDate": "2017-02-02",
             "reportedEPS": "0.51",
             "estimatedEPS": "0.5",
             "surprise": "0.01",
@@ -317,7 +317,7 @@
         },
         {
             "fiscalDateEnding": "2016-09-30",
-            "reportedDate": "2016-10-27",
+            "reportedDate": "2016-10-28",
             "reportedEPS": "0.58",
             "estimatedEPS": "0.56",
             "surprise": "0.02",
@@ -325,7 +325,7 @@
         },
         {
             "fiscalDateEnding": "2016-06-30",
-            "reportedDate": "2016-08-04",
+            "reportedDate": "2016-08-05",
             "reportedEPS": "0.59",
             "estimatedEPS": "0.58",
             "surprise": "0.01",
@@ -333,7 +333,7 @@
         },
         {
             "fiscalDateEnding": "2016-03-31",
-            "reportedDate": "2016-04-28",
+            "reportedDate": "2016-04-29",
             "reportedEPS": "0.55",
             "estimatedEPS": "0.55",
             "surprise": "0",
@@ -365,7 +365,7 @@
         },
         {
             "fiscalDateEnding": "2015-03-31",
-            "reportedDate": "2015-04-29",
+            "reportedDate": "2015-04-30",
             "reportedEPS": "0.5723",
             "estimatedEPS": "None",
             "surprise": "None",
@@ -664,6 +664,14 @@
             "reportedDate": "2001-12-31",
             "reportedEPS": "0.0174",
             "estimatedEPS": "None",
+            "surprise": "None",
+            "surprisePercentage": "None"
+        },
+        {
+            "fiscalDateEnding": "1997-03-31",
+            "reportedDate": "1997-04-22",
+            "reportedEPS": "None",
+            "estimatedEPS": "0.02",
             "surprise": "None",
             "surprisePercentage": "None"
         }
