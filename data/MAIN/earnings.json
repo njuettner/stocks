@@ -2,7 +2,7 @@
     "symbol": "MAIN",
     "annualEarnings": [
         {
-            "fiscalDateEnding": "2023-12-31",
+            "fiscalDateEnding": "2023-09-30",
             "reportedEPS": "3.07"
         },
         {
@@ -71,14 +71,6 @@
         }
     ],
     "quarterlyEarnings": [
-        {
-            "fiscalDateEnding": "2023-12-31",
-            "reportedDate": "2024-01-17",
-            "reportedEPS": "None",
-            "estimatedEPS": "1.03",
-            "surprise": "None",
-            "surprisePercentage": "None"
-        },
         {
             "fiscalDateEnding": "2023-09-30",
             "reportedDate": "2023-11-02",
