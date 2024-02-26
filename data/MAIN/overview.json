@@ -16,7 +16,7 @@
     "EBITDA": "None",
     "PERatio": "8.67",
     "PEGRatio": "2.09",
-    "BookValue": "29.33",
+    "BookValue": "29.34",
     "DividendPerShare": "2.745",
     "DividendYield": "0.0635",
     "EPS": "5.23",
@@ -29,7 +29,7 @@
     "GrossProfitTTM": "376860000",
     "DilutedEPSTTM": "5.23",
     "QuarterlyEarningsGrowthYOY": "0.205",
-    "QuarterlyRevenueGrowthYOY": "0.136",
+    "QuarterlyRevenueGrowthYOY": "0.135",
     "AnalystTargetPrice": "44.5",
     "AnalystRatingStrongBuy": "0",
     "AnalystRatingBuy": "2",
@@ -48,6 +48,6 @@
     "50DayMovingAverage": "44.21",
     "200DayMovingAverage": "41.29",
     "SharesOutstanding": "83745000",
-    "DividendDate": "2024-03-15",
+    "DividendDate": "2024-06-14",
     "ExDividendDate": "2024-03-07"
 }
