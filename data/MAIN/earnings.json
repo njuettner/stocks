@@ -73,7 +73,7 @@
     "quarterlyEarnings": [
         {
             "fiscalDateEnding": "2023-12-31",
-            "reportedDate": "2024-01-17",
+            "reportedDate": "2024-02-23",
             "reportedEPS": "1.07",
             "estimatedEPS": "1.03",
             "surprise": "0.04",
@@ -81,7 +81,7 @@
         },
         {
             "fiscalDateEnding": "2023-09-30",
-            "reportedDate": "2023-11-02",
+            "reportedDate": "2023-11-03",
             "reportedEPS": "0.99",
             "estimatedEPS": "1",
             "surprise": "-0.01",
