@@ -55,7 +55,7 @@ func main() {
 				continue
 			}
 
-			if apiLimitDaily > 499 {
+			if apiLimitDaily > 24 {
 				fmt.Println("Total API limit reached, aborting...")
 				os.Exit(1)
 			}
