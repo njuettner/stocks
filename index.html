@@ -2,217 +2,237 @@
 <html>
   <head>
     <title>Dividends</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+      body {
+        background-color: #f8f9fa;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      h1 {
+        color: #343a40;
+        margin-top: 20px;
+        font-weight: 700;
+        margin-bottom: 30px;
+      }
+      .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 40px;
+        background-color: #ffffff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .button-primary {
+        background-color: #007bff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+      .button-primary:hover {
+        background-color: #0056b3;
+      }
+      .card {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+      }
+    </style>
   </head>
   <body>
     <meta charset="UTF-8" />
-    <h1><p align="center">Dividends 🤑</p></h1>
+    <div class="container">
+      <h1 class="text-center">Dividends 🤑</h1>
 
-    <script>
-      function getLast5Dividends(data) {
-        const dates = Object.keys(data);
-        const last5Dates = dates.slice(0, 10);
-        const last5Dividends = last5Dates.map((date) => ({
-          date: date,
-          dividend: data[date],
-        }));
-        return last5Dividends;
-      }
+      <script>
+        function getLast5Dividends(data) {
+          const dates = Object.keys(data);
+          const last5Dates = dates.slice(0, 10);
+          const last5Dividends = last5Dates.map((date) => ({
+            date: date,
+            dividend: data[date],
+          }));
+          return last5Dividends;
+        }
 
-      const fileNames = [
-        "CHD",
-        "IMBBY",
-        "NVO",
-        "MAIN",
-        "BMY",
-        "WM",
-        "UNP",
-        "UL",
-        "RIO",
-        "PM",
-        "MSFT",
-        "MCD",
-        "LIN",
-        "HD",
-        "FAST",
-        "EXR",
-        "DEO",
-        "CE",
-        "CNQ",
-        "BTI",
-        "ASML",
-        "AXP",
-        "MO",
-        "VGWL.DE",
-        "VGWD.DE",
-      ];
+        const fileNames = [
+          "NVO",
+          "MSFT",
+          "ASML",
+        ];
 
-      const requests = fileNames.map((fileName) => {
-        const xhr = new XMLHttpRequest();
-        xhr.open("GET", "data/" + fileName + "/daily.json", true);
-        xhr.send();
-        return xhr;
-      });
+        const requests = fileNames.map((fileName) => {
+          const xhr = new XMLHttpRequest();
+          xhr.open("GET", "data/" + fileName + "/daily.json", true);
+          xhr.send();
+          return xhr;
+        });
 
-      Promise.all(
-        requests.map(
-          (request) =>
-            new Promise((resolve, reject) => {
-              request.onreadystatechange = function () {
-                if (request.readyState === 4) {
-                  if (request.status === 200) {
-                    resolve(request.responseText);
-                  } else {
-                    reject(new Error(`Error loading ${request.responseURL}`));
+        Promise.all(
+          requests.map(
+            (request) =>
+              new Promise((resolve, reject) => {
+                request.onreadystatechange = function () {
+                  if (request.readyState === 4) {
+                    if (request.status === 200) {
+                      resolve(request.responseText);
+                    } else {
+                      reject(new Error(`Error loading ${request.responseURL}`));
+                    }
                   }
-                }
-              };
-            })
+                };
+              })
+          )
         )
-      )
-        .then((responses) => {
-          responses.forEach((response) => {
-            const data = JSON.parse(response);
-            const symbol = data["Meta Data"]["2. Symbol"];
+          .then((responses) => {
+            responses.forEach((response) => {
+              const data = JSON.parse(response);
+              const symbol = data["Meta Data"]["2. Symbol"];
 
-            const dividendData = {};
-            Object.keys(data["Time Series (Daily)"])
-              .slice(0, 5000)
-              .forEach((date) => {
-                const dividendAmount = parseFloat(
-                  data["Time Series (Daily)"][date]["7. dividend amount"]
-                );
-                const year = date.slice(0, 4);
-                const d = new Date(date);
-                const month = d.getMonth() + 1;
-                const monthNames = [
-                  "January",
-                  "February",
-                  "March",
-                  "April",
-                  "May",
-                  "June",
-                  "July",
-                  "August",
-                  "September",
-                  "October",
-                  "November",
-                  "December",
-                ];
-                const monthName = monthNames[month - 1];
-                if (dividendAmount > 0) {
-                  dividendData[monthName + " " + year.toString()] =
-                    dividendAmount;
-                }
-              });
+              const dividendData = {};
+              Object.keys(data["Time Series (Daily)"])
+                .slice(0, 5000)
+                .forEach((date) => {
+                  const dividendAmount = parseFloat(
+                    data["Time Series (Daily)"][date]["7. dividend amount"]
+                  );
+                  const year = date.slice(0, 4);
+                  const d = new Date(date);
+                  const month = d.getMonth() + 1;
+                  const monthNames = [
+                    "January",
+                    "February",
+                    "March",
+                    "April",
+                    "May",
+                    "June",
+                    "July",
+                    "August",
+                    "September",
+                    "October",
+                    "November",
+                    "December",
+                  ];
+                  const monthName = monthNames[month - 1];
+                  if (dividendAmount > 0) {
+                    dividendData[monthName + " " + year.toString()] =
+                      dividendAmount;
+                  }
+                });
 
-            const datasets = [
-              {
-                label: "Ex-Dividend " + symbol,
-                data: Object.values(dividendData).reverse(),
-                backgroundColor: "rgba(255, 99, 132, 0.2)",
-                borderColor: "rgba(255, 99, 132, 1)",
-                borderWidth: 1,
-              },
-            ];
-            const dates = Object.keys(dividendData).reverse();
-
-            const parentDiv = document.createElement("div");
-            parentDiv.id = `${symbol}-dividends`;
-            parentDiv.style.display = "flex";
-            parentDiv.style.justifyContent = "center";
-            parentDiv.style.margin = "20px";
-
-            const canvas = document.createElement("canvas");
-            canvas.id = `${symbol}-chart`;
-            canvas.width = 800;
-            canvas.height = 450;
-
-            const canvasDiv = document.createElement("div");
-            canvasDiv.appendChild(canvas);
-
-            const ctx = canvas.getContext("2d");
-            const chart = new Chart(ctx, {
-              type: "bar",
-              data: {
-                labels: dates,
-                datasets: datasets,
-              },
-              options: {
-                scales: {
-                  yAxes: [
-                    {
-                      ticks: {
-                        beginAtZero: true,
-                      },
-                    },
-                  ],
+              const datasets = [
+                {
+                  label: "Ex-Dividend " + symbol,
+                  data: Object.values(dividendData).reverse(),
+                  backgroundColor: "rgba(255, 99, 132, 0.2)",
+                  borderColor: "rgba(255, 99, 132, 1)",
+                  borderWidth: 1,
                 },
+              ];
+              const dates = Object.keys(dividendData).reverse();
+
+              const parentDiv = document.createElement("div");
+              parentDiv.id = `${symbol}-dividends`;
+              parentDiv.style.display = "flex";
+              parentDiv.style.justifyContent = "center";
+              parentDiv.style.margin = "20px";
+
+              const canvas = document.createElement("canvas");
+              canvas.id = `${symbol}-chart`;
+              canvas.width = 800;
+              canvas.height = 450;
+
+              const canvasDiv = document.createElement("div");
+              canvasDiv.appendChild(canvas);
+
+              const ctx = canvas.getContext("2d");
+              const chart = new Chart(ctx, {
+                type: "bar",
+                data: {
+                  labels: dates,
+                  datasets: datasets,
+                },
+                options: {
+                  scales: {
+                    yAxes: [
+                      {
+                        ticks: {
+                          beginAtZero: true,
+                        },
+                      },
+                    ],
+                  ],
                 responsive: false,
                 maintainAspectRatio: false,
-              },
+                },
+              });
+
+              const last5Dividends = getLast5Dividends(dividendData);
+
+              // create table element
+              const table = document.createElement("table");
+
+              // create table header row
+              const headerRow = document.createElement("tr");
+              const dateHeader = document.createElement("th");
+              dateHeader.textContent = "EX-DIVIDEND DATE";
+              const amountHeader = document.createElement("th");
+              amountHeader.textContent = "AMOUNT";
+              headerRow.appendChild(dateHeader);
+              headerRow.appendChild(amountHeader);
+              table.appendChild(headerRow);
+
+              // create table data rows
+              last5Dividends.forEach((dividend) => {
+                const row = document.createElement("tr");
+
+                const dateCell = document.createElement("td");
+                dateCell.textContent = dividend.date;
+                row.appendChild(dateCell);
+
+                const amountCell = document.createElement("td");
+                amountCell.textContent = dividend.dividend.toFixed(2);
+                row.appendChild(amountCell);
+
+                table.appendChild(row);
+              });
+
+              // add some styling to the table
+              table.style.borderCollapse = "collapse";
+              table.style.border = "1px solid #ddd";
+              table.style.fontFamily = "Arial, sans-serif";
+
+              const th = table.getElementsByTagName("th");
+              for (let i = 0; i < th.length; i++) {
+                th[i].style.backgroundColor = "#f2f2f2";
+                th[i].style.border = "1px solid #ddd";
+                th[i].style.padding = "8px";
+                th[i].style.textAlign = "left";
+              }
+
+              const td = table.getElementsByTagName("td");
+              for (let i = 0; i < td.length; i++) {
+                td[i].style.border = "1px solid #ddd";
+                td[i].style.padding = "8px";
+              }
+
+              const tableDiv = document.createElement("div");
+              tableDiv.appendChild(table);
+
+              parentDiv.appendChild(canvasDiv);
+              parentDiv.appendChild(tableDiv);
+              document.body.appendChild(parentDiv);
             });
-
-            const last5Dividends = getLast5Dividends(dividendData);
-
-            // create table element
-            const table = document.createElement("table");
-
-            // create table header row
-            const headerRow = document.createElement("tr");
-            const dateHeader = document.createElement("th");
-            dateHeader.textContent = "EX-DIVIDEND DATE";
-            const amountHeader = document.createElement("th");
-            amountHeader.textContent = "AMOUNT";
-            headerRow.appendChild(dateHeader);
-            headerRow.appendChild(amountHeader);
-            table.appendChild(headerRow);
-
-            // create table data rows
-            last5Dividends.forEach((dividend) => {
-              const row = document.createElement("tr");
-
-              const dateCell = document.createElement("td");
-              dateCell.textContent = dividend.date;
-              row.appendChild(dateCell);
-
-              const amountCell = document.createElement("td");
-              amountCell.textContent = dividend.dividend.toFixed(2);
-              row.appendChild(amountCell);
-
-              table.appendChild(row);
-            });
-
-            // add some styling to the table
-            table.style.borderCollapse = "collapse";
-            table.style.border = "1px solid #ddd";
-            table.style.fontFamily = "Arial, sans-serif";
-
-            const th = table.getElementsByTagName("th");
-            for (let i = 0; i < th.length; i++) {
-              th[i].style.backgroundColor = "#f2f2f2";
-              th[i].style.border = "1px solid #ddd";
-              th[i].style.padding = "8px";
-              th[i].style.textAlign = "left";
-            }
-
-            const td = table.getElementsByTagName("td");
-            for (let i = 0; i < td.length; i++) {
-              td[i].style.border = "1px solid #ddd";
-              td[i].style.padding = "8px";
-            }
-
-            const tableDiv = document.createElement("div");
-            tableDiv.appendChild(table);
-
-            parentDiv.appendChild(canvasDiv);
-            parentDiv.appendChild(tableDiv);
-            document.body.appendChild(parentDiv);
+          })
+          .catch((error) => {
+            console.error(error);
           });
-        })
-        .catch((error) => {
-          console.error(error);
-        });
-    </script>
+      </script>
+    </div>
   </body>
 </html>

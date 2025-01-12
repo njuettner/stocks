@@ -6,7 +6,6 @@ import (
 	"flag"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"net/http"
 	"os"
 	"strings"
@@ -27,7 +26,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	file, err := ioutil.ReadFile(*stocksFile)
+	file, err := os.ReadFile(*stocksFile)
 	if err != nil {
 		fmt.Printf("Error reading file: %v\n", err)
 		os.Exit(1)
@@ -76,12 +75,12 @@ func main() {
 				os.Mkdir(fmt.Sprintf("data/%s", stockSymbol), os.ModePerm)
 			}
 
-			data, _ := ioutil.ReadAll(response.Body)
+			data, _ := io.ReadAll(response.Body)
 			if k == "earnings_calendar" {
-				ioutil.WriteFile(fmt.Sprintf("data/%s/%s.csv", stockSymbol, k), data, 0644)
+				os.WriteFile(fmt.Sprintf("data/%s/%s.csv", stockSymbol, k), data, 0644)
 				convertToJSON(fmt.Sprintf("data/%s/%s.csv", stockSymbol, k))
 			} else {
-				ioutil.WriteFile(fmt.Sprintf("data/%s/%s.json", stockSymbol, k), data, 0644)
+				os.WriteFile(fmt.Sprintf("data/%s/%s.json", stockSymbol, k), data, 0644)
 			}
 			apiLimitPerMinute++
 			apiLimitDaily++
