@@ -34,7 +34,6 @@ func main() {
 
 	stockSymbols = strings.Split(string(file), "\n")
 
-	apiLimitDaily := 0
 	apiLimitPerMinute := 0
 	for _, stockSymbol := range stockSymbols {
 		var url = map[string]string{
@@ -52,11 +51,6 @@ func main() {
 
 			if (stockSymbol == "VGWL.DE" || stockSymbol == "VGWD.DE") && k != "daily" {
 				continue
-			}
-
-			if apiLimitDaily > 24 {
-				fmt.Println("Total API limit reached, aborting...")
-				os.Exit(1)
 			}
 
 			if apiLimitPerMinute > 4 {
@@ -83,7 +77,6 @@ func main() {
 				os.WriteFile(fmt.Sprintf("data/%s/%s.json", stockSymbol, k), data, 0644)
 			}
 			apiLimitPerMinute++
-			apiLimitDaily++
 		}
 	}
 }
